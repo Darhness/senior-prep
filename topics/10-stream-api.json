@@ -1,0 +1,52 @@
+{
+  "id": "10",
+  "topic": "Stream API",
+  "sections": [
+    {
+      "section": "A — Fundamentals",
+      "subtopics": [
+        "A1 — What a stream is (and is not)",
+        "A2 — The operation catalogue",
+        "A3 — Laziness and short-circuiting",
+        "A4 — Stream sources — collections, arrays, generators",
+        "A5 — Infinite streams"
+      ]
+    },
+    {
+      "section": "B — Transforming",
+      "subtopics": [
+        "B1 — map vs flatMap",
+        "B2 — filter, distinct, sorted, limit, skip",
+        "B3 — peek — and why it is a trap",
+        "B4 — mapMulti and stream gatherers (final in Java 24)"
+      ]
+    },
+    {
+      "section": "C — Terminal operations",
+      "subtopics": [
+        "C1 — reduce and collect",
+        "C2 — Collectors worth knowing",
+        "C3 — groupingBy and partitioningBy",
+        "C4 — Writing a custom Collector",
+        "C5 — Primitive streams and summary statistics"
+      ]
+    },
+    {
+      "section": "D — Parallel streams",
+      "subtopics": [
+        "D1 — How they work",
+        "D2 — When they help — the honest list",
+        "D3 — How they go wrong",
+        "D4 — Ordered vs unordered"
+      ]
+    },
+    {
+      "section": "E — Practice",
+      "subtopics": [
+        "E1 — Debugging streams",
+        "E2 — When not to use a stream",
+        "E3 — Streams vs loops — the performance question"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "19",
+  "topic": "API Design",
+  "sections": [
+    {
+      "section": "A — Fundamentals",
+      "subtopics": [
+        "A1 — What an API contract actually promises",
+        "A2 — Resource modelling — nouns, not verbs",
+        "A3 — The Richardson maturity model — and how much to care",
+        "A4 — REST vs RPC vs GraphQL — choosing"
+      ]
+    },
+    {
+      "section": "B — HTTP done right",
+      "subtopics": [
+        "B1 — Methods and their semantics — safe and idempotent",
+        "B2 — Status codes that carry meaning",
+        "B3 — Content negotiation and conditional requests",
+        "B4 — Idempotency keys for unsafe operations",
+        "B5 — HTTP caching — ETag, Last-Modified, Cache-Control"
+      ]
+    },
+    {
+      "section": "C — Request and response design",
+      "subtopics": [
+        "C1 — Payload shape — flat vs nested, naming conventions",
+        "C2 — Pagination — offset vs cursor, and the contract you are stuck with",
+        "C3 — Filtering, sorting and sparse fieldsets",
+        "C4 — Partial updates — PUT vs PATCH vs JSON Patch",
+        "C5 — Bulk and batch endpoints",
+        "C6 — Null vs absent vs empty"
+      ]
+    },
+    {
+      "section": "D — Errors",
+      "subtopics": [
+        "D1 — Error shape — RFC 9457 Problem Details",
+        "D2 — Validation errors — reporting all of them at once",
+        "D3 — What the client can act on, and what it cannot",
+        "D4 — Leaking internals through error messages"
+      ]
+    },
+    {
+      "section": "E — Versioning and evolution",
+      "subtopics": [
+        "E1 — URI vs header vs media-type versioning",
+        "E2 — Backward-compatible changes — the safe list",
+        "E3 — Breaking changes — deprecation and Sunset headers",
+        "E4 — Consumer-driven contracts"
+      ]
+    },
+    {
+      "section": "F — Security",
+      "subtopics": [
+        "F1 — Authentication — API keys, OAuth2, mTLS",
+        "F2 — Authorisation at the resource level",
+        "F3 — Rate limiting and quotas — and how to signal them",
+        "F4 — Input validation and mass assignment",
+        "F5 — CORS — what it does and does not protect"
+      ]
+    },
+    {
+      "section": "G — Documentation and tooling",
+      "subtopics": [
+        "G1 — OpenAPI — spec-first vs code-first",
+        "G2 — Generating clients and servers",
+        "G3 — Examples, and why they rot",
+        "G4 — API linting and style guides"
+      ]
+    },
+    {
+      "section": "H — Beyond REST",
+      "subtopics": [
+        "H1 — gRPC — when the binary contract pays",
+        "H2 — GraphQL — the N+1 and the authorisation problem",
+        "H3 — Webhooks — delivery, retries and signing",
+        "H4 — Long-running operations — async APIs and polling",
+        "H5 — Streaming — SSE and WebSockets"
+      ]
+    },
+    {
+      "section": "I — Operating an API",
+      "subtopics": [
+        "I1 — Timeouts, SLAs and client expectations",
+        "I2 — Staying compatible across a service mesh",
+        "I3 — Per-endpoint metrics — what to measure"
+      ]
+    }
+  ]
+}

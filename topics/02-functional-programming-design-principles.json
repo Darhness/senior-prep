@@ -1,0 +1,76 @@
+{
+  "id": "02",
+  "topic": "Functional Programming Design Principles",
+  "sections": [
+    {
+      "section": "A — Core principles",
+      "subtopics": [
+        "A1 — Pure functions and referential transparency",
+        "A2 — Immutability by default",
+        "A3 — Side effects — pushing them to the edges",
+        "A4 — Declarative over imperative",
+        "A5 — Expressions over statements"
+      ]
+    },
+    {
+      "section": "B — Composition",
+      "subtopics": [
+        "B1 — Higher-order functions",
+        "B2 — Function composition (compose, andThen)",
+        "B3 — Currying and partial application",
+        "B4 — Point-free style — and when it hurts readability",
+        "B5 — The flatMap shape — the same move across Optional, Stream and CompletableFuture",
+        "B6 — Total vs partial functions — making the signature tell the truth"
+      ]
+    },
+    {
+      "section": "C — Modelling data and state",
+      "subtopics": [
+        "C1 — Persistent data structures vs defensive copying",
+        "C2 — Records as product types",
+        "C3 — Sealed interfaces as sum types",
+        "C4 — Making illegal states unrepresentable"
+      ]
+    },
+    {
+      "section": "D — Errors and absence",
+      "subtopics": [
+        "D1 — Optional as a design choice, not a null wrapper",
+        "D2 — Either / Result — modelling failure as a value",
+        "D3 — Exceptions vs functional error handling in Java",
+        "D4 — Accumulating errors vs short-circuiting — validation that reports all of them"
+      ]
+    },
+    {
+      "section": "E — Evaluation and laziness",
+      "subtopics": [
+        "E1 — Eager vs lazy evaluation",
+        "E2 — Supplier as deferred computation",
+        "E3 — Memoisation"
+      ]
+    },
+    {
+      "section": "F — Applying FP inside an OO codebase",
+      "subtopics": [
+        "F1 — Strategy pattern vs a plain function",
+        "F2 — Where FP fits in a Spring service",
+        "F3 — Where FP does not pay off in Java",
+        "F4 — SOLID re-read through a functional lens",
+        "F5 — The cost of functional style — allocation, escape analysis, scalar replacement",
+        "F6 — Records at the framework boundary — Jackson, JPA, Spring",
+        "F7 — Vavr and persistent-collection libraries — what they buy, and the team cost",
+        "F8 — Testing pure code — property-based testing"
+      ]
+    },
+    {
+      "section": "G — Recursion and the JVM",
+      "subtopics": [
+        "G1 — Recursion vs iteration — when recursion is the clearer model",
+        "G2 — Why the JVM has no tail-call optimisation",
+        "G3 — StackOverflowError — stack depth and -Xss",
+        "G4 — Trampolining and explicit stacks",
+        "G5 — Structural recursion over sealed hierarchies"
+      ]
+    }
+  ]
+}

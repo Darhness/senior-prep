@@ -1,0 +1,37 @@
+{
+  "id": "06",
+  "topic": "Mutables",
+  "sections": [
+    {
+      "section": "A — Mutable state and its cost",
+      "subtopics": [
+        "A1 — What mutability actually costs — aliasing, reasoning, threads",
+        "A2 — Defensive copying — when you owe a copy",
+        "A3 — Escaping references — the classic getter leak"
+      ]
+    },
+    {
+      "section": "B — Mutating collections safely",
+      "subtopics": [
+        "B1 — Fail-fast iterators and ConcurrentModificationException",
+        "B2 — Removing while iterating — the correct ways",
+        "B3 — Sharing a mutable collection across threads"
+      ]
+    },
+    {
+      "section": "C — Mutable builders",
+      "subtopics": [
+        "C1 — String vs StringBuilder vs StringBuffer",
+        "C2 — The Builder pattern — mutable inside, immutable outside"
+      ]
+    },
+    {
+      "section": "D — Mutability in APIs",
+      "subtopics": [
+        "D1 — Mutable parameters and return types",
+        "D2 — equals/hashCode on mutable objects — the HashSet trap",
+        "D3 — When mutability is the right call"
+      ]
+    }
+  ]
+}

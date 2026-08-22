@@ -1,0 +1,83 @@
+{
+  "id": "23",
+  "topic": "Docker",
+  "sections": [
+    {
+      "section": "A — Fundamentals",
+      "subtopics": [
+        "A1 — Containers vs VMs — what is actually shared",
+        "A2 — Namespaces and cgroups — the kernel primitives",
+        "A3 — Images, layers and the union filesystem",
+        "A4 — Image vs container vs registry"
+      ]
+    },
+    {
+      "section": "B — Building images",
+      "subtopics": [
+        "B1 — The Dockerfile instructions that matter",
+        "B2 — Layer caching — ordering instructions for cache hits",
+        "B3 — Multi-stage builds",
+        "B4 — Base images — distroless, alpine, temurin, and the glibc/musl trap",
+        "B5 — .dockerignore and build context size",
+        "B6 — BuildKit and buildx"
+      ]
+    },
+    {
+      "section": "C — Java inside a container",
+      "subtopics": [
+        "C1 — Layered jars and Spring Boot layertools",
+        "C2 — jlink and custom runtimes",
+        "C3 — Container-aware JVM ergonomics — MaxRAMPercentage",
+        "C4 — Why the JVM gets OOMKilled",
+        "C5 — CPU limits and availableProcessors",
+        "C6 — Startup time — CDS and AOT"
+      ]
+    },
+    {
+      "section": "D — Running containers",
+      "subtopics": [
+        "D1 — Ports, networks and DNS between containers",
+        "D2 — Volumes vs bind mounts",
+        "D3 — Environment variables and config injection",
+        "D4 — Resource limits — memory, CPU, PIDs",
+        "D5 — Signals, PID 1 and graceful shutdown",
+        "D6 — Health checks and restart policies"
+      ]
+    },
+    {
+      "section": "E — Compose and local development",
+      "subtopics": [
+        "E1 — Docker Compose — multi-service local stacks",
+        "E2 — Compose vs Testcontainers for integration tests",
+        "E3 — The dev loop — rebuilds and hot reload"
+      ]
+    },
+    {
+      "section": "F — Registries and distribution",
+      "subtopics": [
+        "F1 — Tagging strategy and immutable tags",
+        "F2 — Registries — Docker Hub, ECR, ACR, GHCR",
+        "F3 — Image signing and provenance",
+        "F4 — Image size — why it matters and how to cut it"
+      ]
+    },
+    {
+      "section": "G — Security",
+      "subtopics": [
+        "G1 — Running as non-root",
+        "G2 — Read-only filesystems and dropped capabilities",
+        "G3 — Secrets — why not in ENV and not in layers",
+        "G4 — Vulnerability scanning — Trivy and Grype",
+        "G5 — Rootless Docker and Podman"
+      ]
+    },
+    {
+      "section": "H — Troubleshooting",
+      "subtopics": [
+        "H1 — Inspecting a running container — exec, logs, inspect",
+        "H2 — Debugging a container that will not start",
+        "H3 — Reading image history and finding the fat layer"
+      ]
+    }
+  ]
+}

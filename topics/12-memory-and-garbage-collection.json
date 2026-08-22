@@ -1,0 +1,67 @@
+{
+  "id": "12",
+  "topic": "Memory & Garbage Collection",
+  "sections": [
+    {
+      "section": "A — JVM memory model foundations",
+      "subtopics": [
+        "The memory model you need first",
+        "Q5 — Describe how generational garbage collection works in Java.",
+        "Q3 — What is the purpose of the Survivor Space in the JVM memory model?",
+        "Q9 — What is the purpose of class unloading in GC? How does it affect long-running applications?"
+      ]
+    },
+    {
+      "section": "B — Collectors & tuning",
+      "subtopics": [
+        "Q1 — Explain the differences between GC algorithms: Serial, Parallel, CMS, G1, ZGC, and Shenandoah.",
+        "Q6 — How do GC pauses impact application performance, and how can you mitigate them?",
+        "Q2 — How would you tune the JVM's garbage collector for a low-latency application?"
+      ]
+    },
+    {
+      "section": "C — Diagnostics & monitoring",
+      "subtopics": [
+        "Q4 — How can you configure JVM flags to analyze GC behavior in production?",
+        "Q10 — Describe how GC logging formats (Unified vs. Classic) impact diagnostics.",
+        "Q7 — What are the key metrics to monitor for evaluating garbage collection efficiency?",
+        "Q8 — How would you troubleshoot OutOfMemoryError caused by GC overhead?"
+      ]
+    },
+    {
+      "section": "D — How memory leaks happen",
+      "subtopics": [
+        "D1 — What a leak even means in a managed heap",
+        "D2 — Static collections and caches that never evict",
+        "D3 — ThreadLocal on a pooled thread",
+        "D4 — ClassLoader leaks — the redeploy classic",
+        "D5 — Listeners and callbacks never deregistered",
+        "D6 — Unclosed resources — streams, connections, executors",
+        "D7 — Off-heap leaks — direct buffers and native memory",
+        "D8 — Growing keys — mutable keys and missing equals/hashCode"
+      ]
+    },
+    {
+      "section": "E — Finding a leak",
+      "subtopics": [
+        "E1 — The symptoms — heap trend, GC frequency, which OutOfMemoryError",
+        "E2 — Capturing a heap dump — jmap, jcmd, HeapDumpOnOutOfMemoryError",
+        "E3 — Eclipse MAT — dominator tree, leak suspects, retained size",
+        "E4 — Following a GC root chain to the culprit",
+        "E5 — JFR for allocation and leak profiling",
+        "E6 — async-profiler for allocation hot paths",
+        "E7 — Native memory tracking for off-heap growth",
+        "E8 — Reproducing a leak in a test"
+      ]
+    },
+    {
+      "section": "F — Preventing leaks",
+      "subtopics": [
+        "F1 — Bounded caches and eviction policies",
+        "F2 — Weak and soft references — the correct use",
+        "F3 — Lifecycle ownership — who closes what",
+        "F4 — Leak canaries in monitoring"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "18",
+  "topic": "Spring",
+  "sections": [
+    {
+      "section": "A — The core container",
+      "subtopics": [
+        "A1 — IoC and dependency injection — what the container actually does",
+        "A2 — BeanFactory vs ApplicationContext",
+        "A3 — Constructor vs setter vs field injection",
+        "A4 — Bean scopes — singleton, prototype, request, session",
+        "A5 — Bean lifecycle and callbacks",
+        "A6 — @Component vs @Bean vs @Configuration",
+        "A7 — Qualifiers, @Primary and resolving ambiguity",
+        "A8 — Circular dependencies — why they happen and how to break them"
+      ]
+    },
+    {
+      "section": "B — Configuration",
+      "subtopics": [
+        "B1 — Java config vs annotations vs XML",
+        "B2 — @Value, Environment and property resolution order",
+        "B3 — @ConfigurationProperties and type-safe config",
+        "B4 — Profiles and conditional beans",
+        "B5 — Externalised configuration and the 12-factor rules"
+      ]
+    },
+    {
+      "section": "C — AOP and proxies",
+      "subtopics": [
+        "C1 — How Spring AOP works — JDK dynamic proxies vs CGLIB",
+        "C2 — Pointcuts, advice and aspects",
+        "C3 — Self-invocation — why the proxy is bypassed",
+        "C4 — Spring AOP vs AspectJ weaving"
+      ]
+    },
+    {
+      "section": "D — Data access and transactions",
+      "subtopics": [
+        "D1 — @Transactional — what it actually does",
+        "D2 — Propagation levels",
+        "D3 — Isolation levels and what they prevent",
+        "D4 — Rollback rules — checked vs unchecked exceptions",
+        "D5 — Why @Transactional silently does nothing",
+        "D6 — Spring Data JPA — repositories and derived queries",
+        "D7 — The N+1 problem and fetch strategies",
+        "D8 — JdbcTemplate vs JPA — when to drop down"
+      ]
+    },
+    {
+      "section": "E — Spring Boot",
+      "subtopics": [
+        "E1 — Auto-configuration — the mechanism",
+        "E2 — Starters and dependency management",
+        "E3 — @SpringBootApplication unpacked",
+        "E4 — Actuator — health, metrics, info",
+        "E5 — Writing your own auto-configuration",
+        "E6 — Startup time and lazy initialisation"
+      ]
+    },
+    {
+      "section": "F — The web layer",
+      "subtopics": [
+        "F1 — DispatcherServlet — the request lifecycle",
+        "F2 — @RestController, mapping and content negotiation",
+        "F3 — Validation with @Valid",
+        "F4 — Exception handling — @ControllerAdvice and ProblemDetail",
+        "F5 — Filters vs interceptors vs AOP",
+        "F6 — WebMVC vs WebFlux — when reactive pays",
+        "F7 — RestTemplate vs WebClient vs RestClient"
+      ]
+    },
+    {
+      "section": "G — Security",
+      "subtopics": [
+        "G1 — The filter chain",
+        "G2 — Authentication vs authorisation",
+        "G3 — Method security with @PreAuthorize",
+        "G4 — JWT and stateless sessions",
+        "G5 — OAuth2 and OIDC in Spring",
+        "G6 — CSRF, CORS and the common misconfigurations"
+      ]
+    },
+    {
+      "section": "H — Testing",
+      "subtopics": [
+        "H1 — @SpringBootTest vs slice tests",
+        "H2 — @MockBean and test context caching",
+        "H3 — Testcontainers with Spring Boot",
+        "H4 — Testing transactions and rollback"
+      ]
+    },
+    {
+      "section": "I — Production concerns",
+      "subtopics": [
+        "I1 — Caching with @Cacheable",
+        "I2 — @Async and scheduling",
+        "I3 — Observability — Micrometer and tracing",
+        "I4 — Graceful shutdown",
+        "I5 — Spring on Kubernetes and native images"
+      ]
+    }
+  ]
+}

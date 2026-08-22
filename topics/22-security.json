@@ -1,0 +1,48 @@
+{
+  "id": "22",
+  "topic": "Security",
+  "sections": [
+    {
+      "section": "A — Cryptography basics",
+      "subtopics": [
+        "A1 — Password hashing — bcrypt, scrypt, Argon2",
+        "A2 — Hashing vs encryption vs encoding",
+        "A3 — Symmetric vs asymmetric — what to use when",
+        "A4 — SecureRandom and where randomness leaks"
+      ]
+    },
+    {
+      "section": "B — Secrets and keys",
+      "subtopics": [
+        "B1 — Keystores and secrets",
+        "B2 — Secret rotation, and where secrets must never live",
+        "B3 — TLS in Java — truststores and certificate pinning"
+      ]
+    },
+    {
+      "section": "C — Untrusted input",
+      "subtopics": [
+        "C1 — Preventing deserialization attacks",
+        "C2 — SQL injection and parameterised queries",
+        "C3 — Path traversal and file upload handling",
+        "C4 — Validation as a boundary concern"
+      ]
+    },
+    {
+      "section": "D — Web application security",
+      "subtopics": [
+        "D1 — The OWASP Top 10 — the ones that actually hit Java",
+        "D2 — XSS and output encoding",
+        "D3 — CSRF and SameSite cookies"
+      ]
+    },
+    {
+      "section": "E — Supply chain and platform",
+      "subtopics": [
+        "E1 — Dependency vulnerabilities and SCA scanning",
+        "E2 — JEP 411 — life after the Security Manager",
+        "E3 — Logging safely — what never goes in a log"
+      ]
+    }
+  ]
+}

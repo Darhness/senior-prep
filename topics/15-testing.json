@@ -1,0 +1,42 @@
+{
+  "id": "15",
+  "topic": "Testing",
+  "sections": [
+    {
+      "section": "A — Strategy",
+      "subtopics": [
+        "A1 — The testing pyramid, and what to say about it",
+        "A2 — What to test and what not to",
+        "A3 — Test doubles — stub, mock, fake, spy"
+      ]
+    },
+    {
+      "section": "B — Unit testing",
+      "subtopics": [
+        "B1 — JUnit 5",
+        "B2 — JUnit 5 extensions (the TestWatcher question)",
+        "B3 — Parameterised tests",
+        "B4 — Mockito — and when not to mock",
+        "B5 — Testing private methods",
+        "B6 — AssertJ and readable assertions",
+        "B7 — Property-based testing with jqwik"
+      ]
+    },
+    {
+      "section": "C — Integration and beyond",
+      "subtopics": [
+        "C1 — Integration testing with Testcontainers",
+        "C2 — Contract testing between services",
+        "C3 — Testing concurrent code",
+        "C4 — Flaky tests — causes and fixes"
+      ]
+    },
+    {
+      "section": "D — Debugging and measurement",
+      "subtopics": [
+        "D1 — Profiling and debugging",
+        "D2 — Coverage — what the number does and does not mean"
+      ]
+    }
+  ]
+}

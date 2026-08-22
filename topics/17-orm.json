@@ -1,0 +1,90 @@
+{
+  "id": "17",
+  "topic": "ORM",
+  "sections": [
+    {
+      "section": "A — Fundamentals",
+      "subtopics": [
+        "A1 — What an ORM solves — and the impedance mismatch",
+        "A2 — JPA the spec vs Hibernate the implementation",
+        "A3 — EntityManager, SessionFactory and the persistence unit",
+        "A4 — When not to use an ORM"
+      ]
+    },
+    {
+      "section": "B — Mapping",
+      "subtopics": [
+        "B1 — @Entity, @Table and the identity requirement",
+        "B2 — Key generation — IDENTITY, SEQUENCE, TABLE, UUID",
+        "B3 — @OneToMany and @ManyToOne — owning side and mappedBy",
+        "B4 — @ManyToMany — and why a join entity is usually better",
+        "B5 — @Embeddable and value objects",
+        "B6 — Inheritance mapping — SINGLE_TABLE, JOINED, TABLE_PER_CLASS",
+        "B7 — Enums, dates and attribute converters",
+        "B8 — equals and hashCode on entities — the real rules"
+      ]
+    },
+    {
+      "section": "C — The persistence context",
+      "subtopics": [
+        "C1 — The first-level cache and the identity guarantee",
+        "C2 — Entity states — transient, managed, detached, removed",
+        "C3 — Dirty checking and automatic flush",
+        "C4 — Flush modes and flush ordering",
+        "C5 — persist vs merge vs save",
+        "C6 — Detached entities and reattachment"
+      ]
+    },
+    {
+      "section": "D — Fetching",
+      "subtopics": [
+        "D1 — Lazy vs eager — and why EAGER is almost always wrong",
+        "D2 — LazyInitializationException — the four fixes",
+        "D3 — The N+1 problem — how to spot it",
+        "D4 — JOIN FETCH, entity graphs and batch fetching",
+        "D5 — Projections and DTOs — not fetching the entity at all",
+        "D6 — Pagination with joins — the in-memory pagination trap"
+      ]
+    },
+    {
+      "section": "E — Querying",
+      "subtopics": [
+        "E1 — JPQL vs Criteria vs native SQL",
+        "E2 — Spring Data derived queries — where they stop working",
+        "E3 — @Query and named queries",
+        "E4 — Specifications and dynamic queries",
+        "E5 — Bulk update and delete — and the stale persistence context"
+      ]
+    },
+    {
+      "section": "F — Transactions and concurrency",
+      "subtopics": [
+        "F1 — Transaction boundaries and the open-session-in-view anti-pattern",
+        "F2 — Optimistic locking with @Version",
+        "F3 — Pessimistic locking modes",
+        "F4 — What the ORM does not protect you from",
+        "F5 — Cascade types and orphan removal"
+      ]
+    },
+    {
+      "section": "G — Performance",
+      "subtopics": [
+        "G1 — The second-level cache — and when it pays",
+        "G2 — The query cache — and why it usually does not",
+        "G3 — Batch inserts and hibernate.jdbc.batch_size",
+        "G4 — Counting the queries — statement logging",
+        "G5 — Reading the generated SQL",
+        "G6 — Session and connection lifetime"
+      ]
+    },
+    {
+      "section": "H — Alternatives and boundaries",
+      "subtopics": [
+        "H1 — jOOQ — typed SQL without an ORM",
+        "H2 — Spring Data JDBC — the simpler model",
+        "H3 — MyBatis",
+        "H4 — Hibernate 6 changes worth knowing"
+      ]
+    }
+  ]
+}

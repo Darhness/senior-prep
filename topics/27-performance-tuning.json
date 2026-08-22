@@ -1,0 +1,31 @@
+{
+  "id": "27",
+  "topic": "Performance Tuning",
+  "sections": [
+    {
+      "section": "A — Finding & measuring bottlenecks",
+      "subtopics": [
+        "Q1 — How do you identify performance bottlenecks in a Java application using profiling tools?",
+        "Q10 — How would you design a benchmarking framework to evaluate Java code performance?",
+        "Q3 — How do you debug high CPU usage caused by infinite loops or heavy computation?",
+        "Q4 — What is the purpose of memory profiling, and how would you analyze its results?",
+        "Q2 — What is the significance of thread contention, and how do you mitigate it?"
+      ]
+    },
+    {
+      "section": "B — Throughput & concurrency optimisation",
+      "subtopics": [
+        "Q5 — Explain how asynchronous programming impacts performance in Java.",
+        "Q6 — How does the ForkJoinPool framework optimize performance for divide-and-conquer tasks?",
+        "Q8 — How do you implement throttling for API calls in a high-load Java application?"
+      ]
+    },
+    {
+      "section": "C — Code-level & startup optimisation",
+      "subtopics": [
+        "Q7 — Describe how Java's Stream API can both enhance and degrade performance.",
+        "Q9 — What strategies can be used to optimize startup time in Java applications?"
+      ]
+    }
+  ]
+}

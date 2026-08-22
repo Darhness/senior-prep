@@ -1,0 +1,49 @@
+{
+  "id": "03",
+  "topic": "Design Patterns",
+  "sections": [
+    {
+      "section": "A — Talking about patterns",
+      "subtopics": [
+        "A1 — How to talk about patterns at L3",
+        "A2 — Patterns superseded by language features"
+      ]
+    },
+    {
+      "section": "B — Creational",
+      "subtopics": [
+        "B1 — Singleton",
+        "B2 — Builder",
+        "B3 — Factory Method vs Abstract Factory vs Static Factory",
+        "B4 — Prototype and object pooling"
+      ]
+    },
+    {
+      "section": "C — Structural",
+      "subtopics": [
+        "C1 — Adapter (and its neighbours: Bridge, Facade, Decorator)",
+        "C2 — Proxy — and how Spring uses it",
+        "C3 — Composite"
+      ]
+    },
+    {
+      "section": "D — Behavioural",
+      "subtopics": [
+        "D1 — Strategy",
+        "D2 — Observer",
+        "D3 — Chain of Responsibility",
+        "D4 — Template Method",
+        "D5 — Command",
+        "D6 — State vs Strategy"
+      ]
+    },
+    {
+      "section": "E — Architectural",
+      "subtopics": [
+        "E1 — Dependency Injection",
+        "E2 — Repository and Unit of Work",
+        "E3 — Fluent interfaces and internal DSLs"
+      ]
+    }
+  ]
+}

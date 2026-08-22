@@ -1,0 +1,83 @@
+{
+  "id": "16",
+  "topic": "Databases",
+  "sections": [
+    {
+      "section": "A — Relational fundamentals",
+      "subtopics": [
+        "A1 — Normalisation, and when to denormalise",
+        "A2 — Keys — primary, foreign, natural vs surrogate",
+        "A3 — Constraints — where to enforce an invariant",
+        "A4 — Schema design for a domain model"
+      ]
+    },
+    {
+      "section": "B — Indexing",
+      "subtopics": [
+        "B1 — B-tree indexes — how a lookup actually works",
+        "B2 — Composite indexes and column order",
+        "B3 — Covering indexes and index-only scans",
+        "B4 — When an index is not used",
+        "B5 — The write cost of an index"
+      ]
+    },
+    {
+      "section": "C — Query performance",
+      "subtopics": [
+        "C1 — Reading an EXPLAIN plan",
+        "C2 — Join strategies — nested loop, hash, merge",
+        "C3 — The N+1 problem",
+        "C4 — Pagination — offset vs keyset",
+        "C5 — Statistics and cardinality estimates",
+        "C6 — Diagnosing a slow query in production"
+      ]
+    },
+    {
+      "section": "D — Transactions and concurrency",
+      "subtopics": [
+        "D1 — ACID — what each letter actually costs",
+        "D2 — Isolation levels and the anomalies they prevent",
+        "D3 — MVCC — how PostgreSQL and MySQL differ",
+        "D4 — Pessimistic vs optimistic locking",
+        "D5 — Deadlocks — causes and detection",
+        "D6 — Long transactions and connection hogging"
+      ]
+    },
+    {
+      "section": "E — Connecting from Java",
+      "subtopics": [
+        "E1 — JDBC — statements, prepared statements, batching",
+        "E2 — Connection pooling — sizing HikariCP"
+      ]
+    },
+    {
+      "section": "F — NoSQL",
+      "subtopics": [
+        "F1 — Document stores — MongoDB, Cosmos DB",
+        "F2 — Key-value — Redis, DynamoDB",
+        "F3 — Wide-column — Cassandra",
+        "F4 — SQL vs NoSQL — the honest criteria",
+        "F5 — CAP — and what it does not say"
+      ]
+    },
+    {
+      "section": "G — Scaling",
+      "subtopics": [
+        "G1 — Read replicas and replication lag",
+        "G2 — Sharding and the partition key",
+        "G3 — Partitioning within a database",
+        "G4 — Caching in front of the database",
+        "G5 — Connection limits as the real ceiling"
+      ]
+    },
+    {
+      "section": "H — Operations and change",
+      "subtopics": [
+        "H1 — Schema migrations — Flyway and Liquibase",
+        "H2 — Zero-downtime migrations — expand and contract",
+        "H3 — Backups, point-in-time recovery and restore drills",
+        "H4 — Monitoring — the metrics that matter"
+      ]
+    }
+  ]
+}

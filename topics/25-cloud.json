@@ -1,0 +1,94 @@
+{
+  "id": "25",
+  "topic": "Cloud",
+  "sections": [
+    {
+      "section": "A — Fundamentals",
+      "subtopics": [
+        "A1 — IaaS vs PaaS vs SaaS",
+        "A2 — Regions, availability zones and failure domains",
+        "A3 — The shared responsibility model",
+        "A4 — The cost model — what actually drives the bill"
+      ]
+    },
+    {
+      "section": "B — Compute",
+      "subtopics": [
+        "B1 — AWS EC2 — instance types and auto-scaling groups (Azure: Virtual Machines, VM Scale Sets)",
+        "B2 — Containers — ECS and EKS (Azure: Container Apps, AKS)",
+        "B3 — Serverless — Lambda (Azure: Functions)",
+        "B4 — Choosing between VM, container and function"
+      ]
+    },
+    {
+      "section": "C — Storage",
+      "subtopics": [
+        "C1 — AWS S3 — buckets, keys and consistency (Azure: Blob Storage)",
+        "C2 — Storage classes and lifecycle policies (Azure: access tiers)",
+        "C3 — Presigned URLs and direct upload",
+        "C4 — Block vs object vs file — EBS, S3, EFS (Azure: Disks, Blob, Files)"
+      ]
+    },
+    {
+      "section": "D — Identity and access",
+      "subtopics": [
+        "D1 — AWS Cognito — user pools vs identity pools (Azure: Entra ID, AD B2C)",
+        "D2 — IAM — roles, policies, least privilege (Azure: RBAC, managed identities)",
+        "D3 — Machine-to-machine auth — instance roles vs static keys",
+        "D4 — Secrets — Secrets Manager and Parameter Store (Azure: Key Vault)"
+      ]
+    },
+    {
+      "section": "E — Kafka",
+      "subtopics": [
+        "E1 — Topics, partitions and offsets",
+        "E2 — Consumer groups and rebalancing",
+        "E3 — Delivery semantics — at-most-once, at-least-once, exactly-once",
+        "E4 — Ordering, keys and partitioning strategy",
+        "E5 — Retention, compaction and replay",
+        "E6 — Kafka from Java — the producer and consumer config that matters",
+        "E7 — Managed Kafka — MSK (Azure: Event Hubs, Confluent Cloud)",
+        "E8 — Kafka vs SQS/SNS vs RabbitMQ (Azure: Service Bus)"
+      ]
+    },
+    {
+      "section": "F — Kubernetes",
+      "subtopics": [
+        "F1 — The object model — pod, deployment, service, ingress",
+        "F2 — Scheduling, requests and limits",
+        "F3 — ConfigMaps and Secrets",
+        "F4 — Health probes — liveness, readiness, startup",
+        "F5 — Horizontal Pod Autoscaler and scaling signals",
+        "F6 — Rolling updates, rollbacks and disruption budgets",
+        "F7 — The JVM on Kubernetes — memory limits and OOMKilled",
+        "F8 — Managed Kubernetes — EKS vs AKS"
+      ]
+    },
+    {
+      "section": "G — Managed data services",
+      "subtopics": [
+        "G1 — Relational — RDS and Aurora (Azure: SQL Database)",
+        "G2 — NoSQL — DynamoDB (Azure: Cosmos DB)",
+        "G3 — Cache — ElastiCache (Azure: Cache for Redis)"
+      ]
+    },
+    {
+      "section": "H — Networking and delivery",
+      "subtopics": [
+        "H1 — VPC, subnets and security groups (Azure: VNet, NSG)",
+        "H2 — Load balancers — ALB and NLB (Azure: Application Gateway, Load Balancer)",
+        "H3 — CDN — CloudFront (Azure: Front Door)",
+        "H4 — API Gateway (Azure: API Management)"
+      ]
+    },
+    {
+      "section": "I — Operating in the cloud",
+      "subtopics": [
+        "I1 — Observability — CloudWatch and X-Ray (Azure: Monitor, Application Insights)",
+        "I2 — Infrastructure as code — Terraform, CloudFormation, Bicep",
+        "I3 — CI/CD to the cloud",
+        "I4 — Resilience — retries, timeouts, multi-AZ and multi-region"
+      ]
+    }
+  ]
+}

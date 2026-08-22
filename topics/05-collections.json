@@ -1,0 +1,40 @@
+{
+  "id": "05",
+  "topic": "Collections",
+  "sections": [
+    {
+      "section": "A — The framework",
+      "subtopics": [
+        "A1 — The map of the territory",
+        "A2 — Choosing the right collection"
+      ]
+    },
+    {
+      "section": "B — Maps",
+      "subtopics": [
+        "B1 — HashMap — how it actually works",
+        "B2 — LinkedHashMap — free LRU cache",
+        "B3 — TreeMap and sorted maps",
+        "B4 — EnumMap — the free win",
+        "B5 — IdentityHashMap and WeakHashMap"
+      ]
+    },
+    {
+      "section": "C — Lists, sets and queues",
+      "subtopics": [
+        "C1 — ArrayList vs LinkedList",
+        "C2 — HashSet vs LinkedHashSet vs TreeSet",
+        "C3 — EnumSet",
+        "C4 — ArrayDeque, PriorityQueue and BlockingQueue"
+      ]
+    },
+    {
+      "section": "D — Concurrent collections",
+      "subtopics": [
+        "D1 — ConcurrentHashMap vs HashMap vs Hashtable",
+        "D2 — CopyOnWriteArrayList — when the copy pays",
+        "D3 — The concurrent collection catalogue"
+      ]
+    }
+  ]
+}

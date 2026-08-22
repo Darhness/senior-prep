@@ -1,0 +1,29 @@
+{
+  "id": "28",
+  "topic": "Modern Architecture",
+  "sections": [
+    {
+      "section": "A — Runtimes and frameworks",
+      "subtopics": [
+        "A1 — Spring Boot vs Micronaut vs Quarkus",
+        "A2 — Serverless Java"
+      ]
+    },
+    {
+      "section": "B — Service topology",
+      "subtopics": [
+        "B1 — Monolith vs microservices — the honest trade-off",
+        "B2 — Service discovery and API gateways",
+        "B3 — Synchronous vs event-driven communication"
+      ]
+    },
+    {
+      "section": "C — Packaging and running",
+      "subtopics": [
+        "C1 — Dockerising Java properly",
+        "C2 — Running Java on Kubernetes",
+        "C3 — JVM tuning inside a container"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "20",
+  "topic": "Caching",
+  "sections": [
+    {
+      "section": "A — In-JVM caching with references",
+      "subtopics": [
+        "Q2 — Explain how WeakHashMap can be used for caching. What are its limitations?",
+        "Q6 — Discuss how Java's SoftReferences can be used for cache implementation."
+      ]
+    },
+    {
+      "section": "B — Distributed caching",
+      "subtopics": [
+        "Q1 — How do you integrate distributed caching solutions like Redis into a Java application?",
+        "Q8 — Explain the concept of cache sharding and its relevance in distributed systems.",
+        "Q5 — How would you handle cache invalidation in a multi-node Java application?",
+        "Q4 — What are some potential pitfalls of using caching in a distributed environment?"
+      ]
+    },
+    {
+      "section": "C — Strategy, frameworks & measurement",
+      "subtopics": [
+        "Q3 — Describe caching strategies for a microservices architecture in Java.",
+        "Q10 — What are hybrid caching strategies, and how can they be implemented in Java?",
+        "Q9 — How can Java-based frameworks like Spring Cache simplify caching operations?",
+        "Q7 — How would you measure the effectiveness of a caching layer in Java?"
+      ]
+    }
+  ]
+}

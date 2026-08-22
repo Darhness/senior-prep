@@ -1,0 +1,91 @@
+{
+  "id": "29",
+  "topic": "System Design",
+  "sections": [
+    {
+      "section": "A — Running the interview",
+      "subtopics": [
+        "A1 — The 45-minute structure — requirements, estimate, sketch, deepen, trade-offs",
+        "A2 — Functional vs non-functional requirements — what to pin down first",
+        "A3 — The questions that narrow the problem",
+        "A4 — Driving the conversation instead of waiting to be prompted"
+      ]
+    },
+    {
+      "section": "B — Estimation",
+      "subtopics": [
+        "B1 — The back-of-envelope numbers worth memorising",
+        "B2 — QPS, storage and bandwidth from a user count",
+        "B3 — Read/write ratio, and why it changes everything",
+        "B4 — Peak vs average, and how much headroom to buy"
+      ]
+    },
+    {
+      "section": "C — Building blocks",
+      "subtopics": [
+        "C1 — Load balancers and where they sit",
+        "C2 — The application tier — stateless as the default",
+        "C3 — Database choice and the data model",
+        "C4 — Cache layers — and what they cost you",
+        "C5 — Queues and async work",
+        "C6 — Object storage and CDN",
+        "C7 — Search — when you need a separate index"
+      ]
+    },
+    {
+      "section": "D — Distributed systems fundamentals",
+      "subtopics": [
+        "D1 — CAP and PACELC in practice",
+        "D2 — Consistency models — strong, eventual, read-your-writes",
+        "D3 — Replication — leader-follower, multi-leader, quorum",
+        "D4 — Partitioning — hash, range, consistent hashing",
+        "D5 — Consensus — what Raft buys you, and when you need it",
+        "D6 — Clocks, ordering and idempotency"
+      ]
+    },
+    {
+      "section": "E — Reliability",
+      "subtopics": [
+        "E1 — Failure modes — what breaks first under load",
+        "E2 — Timeouts, retries and exponential backoff",
+        "E3 — Circuit breakers and bulkheads",
+        "E4 — Graceful degradation and load shedding",
+        "E5 — Finding the single points of failure in your own design",
+        "E6 — Multi-AZ and multi-region — the real cost"
+      ]
+    },
+    {
+      "section": "F — Scaling",
+      "subtopics": [
+        "F1 — Vertical vs horizontal — where each wall is",
+        "F2 — Stateless scaling and session handling",
+        "F3 — Database scaling — replicas, sharding, and the ceiling",
+        "F4 — Hot keys and skew",
+        "F5 — Rate limiting at scale",
+        "F6 — Back-pressure through the whole system"
+      ]
+    },
+    {
+      "section": "G — Classic problems",
+      "subtopics": [
+        "G1 — URL shortener",
+        "G2 — News feed and timeline",
+        "G3 — Chat and presence",
+        "G4 — Distributed rate limiter",
+        "G5 — Distributed job scheduler",
+        "G6 — Notification and fan-out service",
+        "G7 — File storage and sharing",
+        "G8 — Ticket booking — the contention problem"
+      ]
+    },
+    {
+      "section": "H — Trade-offs and communication",
+      "subtopics": [
+        "H1 — Naming the trade-off out loud",
+        "H2 — Cost as a design constraint",
+        "H3 — What you would build first — the v1 vs v3 answer",
+        "H4 — Operational reality — who gets paged"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "24",
+  "topic": "CI/CD",
+  "sections": [
+    {
+      "section": "A — Fundamentals",
+      "subtopics": [
+        "A1 — CI vs continuous delivery vs continuous deployment",
+        "A2 — The pipeline as a contract — what each stage guarantees",
+        "A3 — Trunk-based development vs long-lived branches",
+        "A4 — Reproducible builds and pinned dependencies"
+      ]
+    },
+    {
+      "section": "B — Build",
+      "subtopics": [
+        "B1 — Maven vs Gradle — lifecycle and when each wins",
+        "B2 — Dependency management, BOMs and version conflicts",
+        "B3 — Multi-module builds",
+        "B4 — Build caching and incremental builds",
+        "B5 — Versioning — SemVer, snapshots and release trains"
+      ]
+    },
+    {
+      "section": "C — Quality gates",
+      "subtopics": [
+        "C1 — Where tests run — fast feedback first",
+        "C2 — Static analysis — SonarQube, SpotBugs, Checkstyle",
+        "C3 — Coverage gates — and why they get gamed",
+        "C4 — Dependency and container scanning",
+        "C5 — What should actually block a merge"
+      ]
+    },
+    {
+      "section": "D — Artifacts and packaging",
+      "subtopics": [
+        "D1 — Artifact repositories — Nexus and Artifactory",
+        "D2 — Docker builds — layers, caching, multi-stage",
+        "D3 — Image tagging and immutability",
+        "D4 — SBOM and build provenance"
+      ]
+    },
+    {
+      "section": "E — Deployment strategies",
+      "subtopics": [
+        "E1 — Rolling updates",
+        "E2 — Blue-green",
+        "E3 — Canary and progressive delivery",
+        "E4 — Feature flags — decoupling deploy from release",
+        "E5 — Database migrations — Flyway, Liquibase and backward compatibility",
+        "E6 — Rollback — what makes it actually possible"
+      ]
+    },
+    {
+      "section": "F — Environments and configuration",
+      "subtopics": [
+        "F1 — Environment promotion — dev, staging, prod",
+        "F2 — Config and secrets per environment",
+        "F3 — Infrastructure as code in the pipeline",
+        "F4 — GitOps — ArgoCD and Flux"
+      ]
+    },
+    {
+      "section": "G — Tooling",
+      "subtopics": [
+        "G1 — GitHub Actions",
+        "G2 — Jenkins — declarative pipelines and shared libraries",
+        "G3 — GitLab CI",
+        "G4 — Azure DevOps Pipelines",
+        "G5 — Managed vs self-hosted runners"
+      ]
+    },
+    {
+      "section": "H — Operating the pipeline",
+      "subtopics": [
+        "H1 — Pipeline speed — where the minutes go",
+        "H2 — Flaky pipelines and retry policy",
+        "H3 — DORA metrics — lead time, deploy frequency, MTTR, change failure rate",
+        "H4 — Pipeline security — secrets, least-privilege tokens, supply chain"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "topics": [
+    {
+      "id": "01",
+      "topic": "OOP & Design Principles",
+      "file": "01-oop-and-design-principles.json"
+    },
+    {
+      "id": "02",
+      "topic": "Functional Programming Design Principles",
+      "file": "02-functional-programming-design-principles.json"
+    },
+    {
+      "id": "03",
+      "topic": "Design Patterns",
+      "file": "03-design-patterns.json"
+    },
+    {
+      "id": "04",
+      "topic": "Core Java",
+      "file": "04-core-java.json"
+    },
+    {
+      "id": "05",
+      "topic": "Collections",
+      "file": "05-collections.json"
+    },
+    {
+      "id": "06",
+      "topic": "Mutables",
+      "file": "06-mutables.json"
+    },
+    {
+      "id": "07",
+      "topic": "Immutables",
+      "file": "07-immutables.json"
+    },
+    {
+      "id": "08",
+      "topic": "Generics",
+      "file": "08-generics.json"
+    },
+    {
+      "id": "09",
+      "topic": "Java Functional Programming",
+      "file": "09-java-functional-programming.json"
+    },
+    {
+      "id": "10",
+      "topic": "Stream API",
+      "file": "10-stream-api.json"
+    },
+    {
+      "id": "11",
+      "topic": "Multithreading & Concurrency",
+      "file": "11-multithreading-and-concurrency.json"
+    },
+    {
+      "id": "12",
+      "topic": "Memory & Garbage Collection",
+      "file": "12-memory-and-garbage-collection.json"
+    },
+    {
+      "id": "13",
+      "topic": "Compiler & JIT",
+      "file": "13-compiler-and-jit.json"
+    },
+    {
+      "id": "14",
+      "topic": "Newer Java Features",
+      "file": "14-newer-java-features.json"
+    },
+    {
+      "id": "15",
+      "topic": "Testing",
+      "file": "15-testing.json"
+    },
+    {
+      "id": "16",
+      "topic": "Databases",
+      "file": "16-databases.json"
+    },
+    {
+      "id": "17",
+      "topic": "ORM",
+      "file": "17-orm.json"
+    },
+    {
+      "id": "18",
+      "topic": "Spring",
+      "file": "18-spring.json"
+    },
+    {
+      "id": "19",
+      "topic": "API Design",
+      "file": "19-api-design.json"
+    },
+    {
+      "id": "20",
+      "topic": "Caching",
+      "file": "20-caching.json"
+    },
+    {
+      "id": "21",
+      "topic": "Messaging Patterns",
+      "file": "21-messaging-patterns.json"
+    },
+    {
+      "id": "22",
+      "topic": "Security",
+      "file": "22-security.json"
+    },
+    {
+      "id": "23",
+      "topic": "Docker",
+      "file": "23-docker.json"
+    },
+    {
+      "id": "24",
+      "topic": "CI/CD",
+      "file": "24-cicd.json"
+    },
+    {
+      "id": "25",
+      "topic": "Cloud",
+      "file": "25-cloud.json"
+    },
+    {
+      "id": "26",
+      "topic": "Observability",
+      "file": "26-observability.json"
+    },
+    {
+      "id": "27",
+      "topic": "Performance Tuning",
+      "file": "27-performance-tuning.json"
+    },
+    {
+      "id": "28",
+      "topic": "Modern Architecture",
+      "file": "28-modern-architecture.json"
+    },
+    {
+      "id": "29",
+      "topic": "System Design",
+      "file": "29-system-design.json"
+    },
+    {
+      "id": "30",
+      "topic": "Scenario-Based Questions",
+      "file": "30-scenario-based-questions.json"
+    }
+  ]
+}

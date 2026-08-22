@@ -1,0 +1,32 @@
+{
+  "id": "13",
+  "topic": "Compiler & JIT",
+  "sections": [
+    {
+      "section": "A — From bytecode to execution",
+      "subtopics": [
+        "Q1 — What are the stages of Java bytecode execution in the JVM?",
+        "Q10 — Explain how the bytecode verifier ensures safety during execution.",
+        "Q2 — How does JIT compilation differ from traditional Ahead-of-Time (AOT) compilation?"
+      ]
+    },
+    {
+      "section": "B — How the JIT optimises",
+      "subtopics": [
+        "Q5 — How does tiered compilation balance startup and peak performance in the JVM?",
+        "Q3 — Explain the purpose of method inlining and how it improves performance in JIT.",
+        "Q9 — How does adaptive optimization in JIT improve long-running application performance?",
+        "Q7 — Describe how speculative optimizations in JIT can lead to de-optimization.",
+        "Q4 — What are the trade-offs of enabling aggressive JIT optimizations?",
+        "Q11 — What is escape analysis, and what do scalar replacement and lock elision buy?"
+      ]
+    },
+    {
+      "section": "C — Beyond HotSpot",
+      "subtopics": [
+        "Q6 — What role does the Java Virtual Machine Compiler Interface (JVMCI) play?",
+        "Q8 — What are native image builds (e.g., GraalVM), and how do they differ from traditional JVM execution?"
+      ]
+    }
+  ]
+}

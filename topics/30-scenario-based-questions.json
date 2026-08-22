@@ -1,0 +1,37 @@
+{
+  "id": "30",
+  "topic": "Scenario-Based Questions",
+  "sections": [
+    {
+      "section": "A — Method",
+      "subtopics": [
+        "How to answer any scenario question"
+      ]
+    },
+    {
+      "section": "B — Diagnosing production problems",
+      "subtopics": [
+        "Q1 — How would you debug a memory leak in a Java web application running in production?",
+        "Q8 — How do you diagnose and resolve deadlocks in multithreaded applications?",
+        "Q7 — How would you integrate logging frameworks like SLF4J with multiple backends?"
+      ]
+    },
+    {
+      "section": "C — Designing distributed systems",
+      "subtopics": [
+        "Q2 — Describe how to design a Java application that processes real-time data streams.",
+        "Q4 — Explain how you would design a distributed job scheduling system using Java.",
+        "Q10 — How do you design a system to efficiently handle billions of small files in Java?"
+      ]
+    },
+    {
+      "section": "D — Resilience & resource management",
+      "subtopics": [
+        "Q3 — How would you handle database connection pooling in a high-concurrency environment?",
+        "Q5 — How do you ensure graceful shutdown of services in a distributed Java application?",
+        "Q6 — What steps would you take to implement retry logic for failed HTTP requests?",
+        "Q9 — Describe how to implement a Java-based solution for rate limiting in a distributed system."
+      ]
+    }
+  ]
+}

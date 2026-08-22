@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"E:\\\\Projects\\\\senior-prep\" -Recurse -Depth 2 | Select-Object -First 100 | ForEach-Object { $_.FullName })",
+      "Bash(node -e \"const d=require\\('./content/01.json'\\); console.log\\(Object.keys\\(d\\)\\); console.log\\(JSON.stringify\\(d\\).slice\\(0,300\\)\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(node scripts/topic-tree.ts --depth 1)",
+      "Bash(node scripts/topic-tree.ts --format md --depth 2)",
+      "Bash(node scripts/topic-tree.ts --format json --depth 1)",
+      "Bash(node scripts/topic-tree.ts --depth 9)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(node scripts/build-index.ts --check)",
+      "Bash(node scripts/build-index.ts)",
+      "Bash(node scripts/topic-tree.ts --depth 1 --no-counts)",
+      "Bash(node scripts/topic-tree.ts --depth 2)",
+      "Bash(cp topics/index.json /tmp/idx.bak)",
+      "Bash(node -e \"const f='topics/index.json';const j=JSON.parse\\(require\\('fs'\\).readFileSync\\(f\\)\\);j.topics[3].topic='WRONG';j.topics.pop\\(\\);require\\('fs'\\).writeFileSync\\(f,JSON.stringify\\(j,null,2\\)\\)\")",
+      "Bash(node scripts/topic-tree.ts --help)",
+      "Bash(ls -la \"C:/Users/darhn/.claude/projects/e--Projects-senior-prep/memory/\" 2>&1 | head -20)",
+      "Read(//c/Users/darhn/.claude/projects/e--Projects-senior-prep/memory/**)",
+      "Bash(node scripts/topic-tree.ts --depth 2 --no-color)",
+      "Bash(node scripts/topic-tree.ts --no-color)",
+      "Bash(node scripts/topic-tree.ts --depth 1 --no-color)",
+      "Edit(/.claude/skills/topics/**)",
+      "Bash(node scripts/topic-tree.ts --format tree)",
+      "Bash(node scripts/topic-tree.ts --depth 3)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}

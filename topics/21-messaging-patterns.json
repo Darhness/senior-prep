@@ -1,0 +1,88 @@
+{
+  "id": "21",
+  "topic": "Messaging Patterns",
+  "sections": [
+    {
+      "section": "A — Foundations",
+      "subtopics": [
+        "A1 — Queue vs topic vs log — the three shapes",
+        "A2 — Point-to-point, pub/sub and competing consumers",
+        "A3 — Push vs pull delivery",
+        "A4 — Where async actually helps — and where it just hides latency"
+      ]
+    },
+    {
+      "section": "B — Delivery guarantees",
+      "subtopics": [
+        "B1 — At-most-once, at-least-once, exactly-once",
+        "B2 — Why exactly-once is a lie without idempotency",
+        "B3 — Idempotent consumers — dedup keys and windows",
+        "B4 — Ordering guarantees, and what breaks them",
+        "B5 — Acknowledgement — when to ack, and the redelivery trap"
+      ]
+    },
+    {
+      "section": "C — Failure handling",
+      "subtopics": [
+        "C1 — Consumer-side retries and backoff",
+        "C2 — Dead-letter queues — routing, alerting, replay",
+        "C3 — Poison messages",
+        "C4 — Retry topics vs in-place retry",
+        "C5 — Replay — reprocessing without re-firing side effects"
+      ]
+    },
+    {
+      "section": "D — Transactional patterns",
+      "subtopics": [
+        "D1 — The dual-write problem",
+        "D2 — Transactional outbox",
+        "D3 — Change data capture — Debezium and the log",
+        "D4 — Inbox pattern for consumer-side dedup",
+        "D5 — Saga — orchestration vs choreography",
+        "D6 — Compensating actions"
+      ]
+    },
+    {
+      "section": "E — Event modelling",
+      "subtopics": [
+        "E1 — Event notification vs event-carried state transfer",
+        "E2 — Commands vs events vs documents",
+        "E3 — Event granularity and naming",
+        "E4 — Serialisation — Avro, Protobuf, JSON Schema",
+        "E5 — Schema registry and compatibility modes",
+        "E6 — Versioning an event without breaking consumers"
+      ]
+    },
+    {
+      "section": "F — Event sourcing and CQRS",
+      "subtopics": [
+        "F1 — Event sourcing — what you gain and what you pay",
+        "F2 — Rebuilding state from the log",
+        "F3 — Snapshots",
+        "F4 — CQRS — separating the read and write models",
+        "F5 — Eventual consistency in the read model",
+        "F6 — When not to use either"
+      ]
+    },
+    {
+      "section": "G — Streaming",
+      "subtopics": [
+        "G1 — Stream processing vs batch",
+        "G2 — Windowing — tumbling, sliding, session",
+        "G3 — Late and out-of-order events — watermarks",
+        "G4 — Stateful stream processing with Kafka Streams",
+        "G5 — Joins across streams"
+      ]
+    },
+    {
+      "section": "H — Operating messaging",
+      "subtopics": [
+        "H1 — Consumer lag — the metric that matters",
+        "H2 — Back-pressure and slow consumers",
+        "H3 — Scaling consumers — the partition as the unit",
+        "H4 — Monitoring and alerting on a queue",
+        "H5 — Testing message-driven code"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "01",
+  "topic": "OOP & Design Principles",
+  "sections": [
+    {
+      "section": "A — The four OOP pillars",
+      "subtopics": [
+        "A1 — Encapsulation",
+        "A2 — Inheritance",
+        "A3 — Polymorphism",
+        "A4 — Abstraction",
+        "A5 — Kinds of polymorphism — subtype, parametric, ad-hoc"
+      ]
+    },
+    {
+      "section": "B — Overloading vs. overriding",
+      "subtopics": [
+        "B1 — Overloading rules",
+        "B2 — Overriding rules",
+        "B3 — Overriding equals, hashCode and compareTo",
+        "B4 — Static vs dynamic dispatch — what is decided at compile time",
+        "B5 — Covariant returns and bridge methods",
+        "B6 — Calling an overridable method from a constructor"
+      ]
+    },
+    {
+      "section": "C — Design principles",
+      "subtopics": [
+        "C1 — SOLID, with the failure mode of each",
+        "C2 — DRY",
+        "C3 — KISS",
+        "C4 — YAGNI",
+        "C5 — Law of Demeter",
+        "C6 — Liskov in practice — beyond square/rectangle"
+      ]
+    },
+    {
+      "section": "D — Inheritance vs composition",
+      "subtopics": [
+        "D1 — Prefer composition over inheritance — the argument, not the slogan",
+        "D2 — The fragile base class problem",
+        "D3 — Delegation, and what you give up (no subtype relationship)",
+        "D4 — Abstract class vs interface — the actual decision",
+        "D5 — Default methods and multiple inheritance of behaviour"
+      ]
+    },
+    {
+      "section": "E — Coupling, cohesion and boundaries",
+      "subtopics": [
+        "E1 — Coupling and cohesion — naming them out loud",
+        "E2 — Access modifiers as the encapsulation tool — package-private, sealed, modules",
+        "E3 — Tell, don't ask",
+        "E4 — Anemic vs rich domain model",
+        "E5 — Where OOP is the wrong tool"
+      ]
+    }
+  ]
+}

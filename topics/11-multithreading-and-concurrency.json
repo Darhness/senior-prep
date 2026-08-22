@@ -1,0 +1,87 @@
+{
+  "id": "11",
+  "topic": "Multithreading & Concurrency",
+  "sections": [
+    {
+      "section": "A — The Java Memory Model",
+      "subtopics": [
+        "A1 — The problem the JMM solves",
+        "A2 — happens-before — the whole model in one relation",
+        "A3 — final field semantics"
+      ]
+    },
+    {
+      "section": "B — volatile, synchronized, atomics",
+      "subtopics": [
+        "B1 — volatile",
+        "B2 — synchronized",
+        "B3 — synchronized vs java.util.concurrent.Lock",
+        "B4 — Fair vs unfair locks",
+        "B5 — ReentrantReadWriteLock",
+        "B6 — StampedLock (Java 8)",
+        "B7 — Atomics and CAS",
+        "B8 — Double-checked locking and lazy initialisation"
+      ]
+    },
+    {
+      "section": "C — Threads and executors",
+      "subtopics": [
+        "C1 — Thread vs Runnable",
+        "C2 — Daemon threads vs user threads",
+        "C3 — Thread priorities — and why they rarely help",
+        "C4 — ExecutorService and thread pool sizing",
+        "C5 — Custom thread pools — ThreadFactory and rejection policies",
+        "C6 — ScheduledExecutorService",
+        "C7 — ForkJoinPool and work stealing",
+        "C8 — CompletableFuture",
+        "C9 — Virtual threads (Java 21)",
+        "C10 — Structured concurrency — StructuredTaskScope (still preview in Java 25)"
+      ]
+    },
+    {
+      "section": "D — Coordination primitives",
+      "subtopics": [
+        "Coordination primitives",
+        "D1 — CountDownLatch vs CyclicBarrier",
+        "D2 — Semaphore",
+        "D3 — Phaser",
+        "D4 — BlockingQueue and producer–consumer",
+        "D5 — wait / notify — the legacy mechanism",
+        "D6 — ThreadLocal",
+        "D7 — ThreadLocalRandom vs Random"
+      ]
+    },
+    {
+      "section": "E — Deadlock, livelock, starvation",
+      "subtopics": [
+        "E1 — The four Coffman conditions",
+        "E2 — Prevention, in order of preference",
+        "E3 — Detection during an incident",
+        "E4 — Livelock and starvation"
+      ]
+    },
+    {
+      "section": "F — Asynchronous and reactive",
+      "subtopics": [
+        "F1 — Composing CompletableFutures — allOf, anyOf, exception handling",
+        "F2 — Reactive Streams — Reactor and RxJava",
+        "F3 — Back-pressure in a high-throughput system",
+        "F4 — The Actor model — Akka"
+      ]
+    },
+    {
+      "section": "G — Applied patterns",
+      "subtopics": [
+        "G1 — Retry with exponential backoff",
+        "G2 — Rate limiting — Semaphore and ScheduledExecutorService"
+      ]
+    },
+    {
+      "section": "H — Concurrency design",
+      "subtopics": [
+        "H1 — Concurrency design checklist",
+        "H2 — Designing a thread-safe data structure from scratch"
+      ]
+    }
+  ]
+}

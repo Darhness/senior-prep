@@ -1,0 +1,41 @@
+{
+  "id": "09",
+  "topic": "Java Functional Programming",
+  "sections": [
+    {
+      "section": "A — Lambdas",
+      "subtopics": [
+        "A1 — What a lambda actually compiles to",
+        "A2 — Effectively final and variable capture",
+        "A3 — Method references — the four kinds",
+        "A4 — Lambdas vs anonymous classes — this, shadowing, cost"
+      ]
+    },
+    {
+      "section": "B — Functional interfaces",
+      "subtopics": [
+        "B1 — Built-in functional interfaces",
+        "B2 — @FunctionalInterface and writing your own",
+        "B3 — Primitive specialisations — IntFunction and friends",
+        "B4 — Composing functions — andThen, compose, negate",
+        "B5 — Comparator — comparing, thenComparing, reversed"
+      ]
+    },
+    {
+      "section": "C — Optional",
+      "subtopics": [
+        "C1 — Optional — used correctly",
+        "C2 — map, flatMap and filter on Optional",
+        "C3 — orElse vs orElseGet vs orElseThrow",
+        "C4 — Where Optional does not belong — fields, parameters, collections"
+      ]
+    },
+    {
+      "section": "D — Functional style in practice",
+      "subtopics": [
+        "D1 — Checked exceptions inside lambdas",
+        "D2 — Higher-order methods in your own APIs"
+      ]
+    }
+  ]
+}

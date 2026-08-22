@@ -19,18 +19,12 @@
       ]
     },
     {
-      "section": "C — Mutable builders",
+      "section": "C — Mutability in APIs",
       "subtopics": [
-        "C1 — String vs StringBuilder vs StringBuffer",
-        "C2 — The Builder pattern — mutable inside, immutable outside"
-      ]
-    },
-    {
-      "section": "D — Mutability in APIs",
-      "subtopics": [
-        "D1 — Mutable parameters and return types",
-        "D2 — equals/hashCode on mutable objects — the HashSet trap",
-        "D3 — When mutability is the right call"
+        "C1 — Mutable parameters and return types",
+        "C2 — equals/hashCode on mutable objects — the HashSet trap",
+        "C3 — The Builder pattern — mutable inside, immutable outside",
+        "C4 — When mutability is the right call"
       ]
     }
   ]

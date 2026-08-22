@@ -7,12 +7,9 @@
       "subtopics": [
         "Q3 — Explain how var improves readability without sacrificing type safety.",
         "Q4 — How do Switch Expressions (Java 12+) simplify complex conditional logic?",
-        "Q37 — What are switch expressions, and how do they improve readability?",
         "Q16 — How does Pattern Matching for switch differ from a traditional switch?",
         "Q10 — Discuss the significance of pattern matching for instanceof.",
-        "Q32 — How does pattern matching for instanceof simplify conditional code?",
         "Q7 — How do text blocks improve the maintainability of code with multiline strings?",
-        "Q21 — How do Text Blocks simplify working with multi-line strings?",
         "Q38 — Explain the role of static methods in interfaces in modern Java."
       ]
     },
@@ -20,10 +17,7 @@
       "section": "B — Data modelling & type hierarchies",
       "subtopics": [
         "Q8 — Describe how the Records feature can simplify data modeling.",
-        "Q17 — What are records, and how do they differ from traditional POJOs?",
-        "Q6 — Explain the purpose of sealed classes and how they enforce stricter type hierarchies.",
-        "Q18 — Explain how sealed and non-sealed modifiers enforce stricter inheritance rules.",
-        "Q40 — What is the difference between immutable collections and unmodifiable collections?"
+        "Q6 — Explain the purpose of sealed classes and how they enforce stricter type hierarchies."
       ]
     },
     {
@@ -35,55 +29,26 @@
       ]
     },
     {
-      "section": "D — Concurrency: Project Loom & reactive",
-      "subtopics": [
-        "Q2 — What are the benefits of Project Loom and how might it impact traditional threading models?",
-        "Q28 — What is the impact of Project Loom on asynchronous programming?",
-        "Q15 — Describe how Flow APIs support reactive programming."
-      ]
-    },
-    {
-      "section": "E — Performance: GC & runtime",
-      "subtopics": [
-        "Q5 — What is the difference between ZGC and Shenandoah GC?",
-        "Q19 — What improvements were introduced to garbage collectors like G1 in Java 12?",
-        "Q14 — What is the significance of Compact Strings (Java 9)?",
-        "Q29 — How do hidden classes improve JVM performance for frameworks like Spring?",
-        "Q23 — How does Java support AOT compilation via GraalVM?"
-      ]
-    },
-    {
-      "section": "F — Native code & off-heap memory",
+      "section": "D — Native code & off-heap memory",
       "subtopics": [
         "Q24 — How does the Foreign Function & Memory API (Project Panama) expand Java's capabilities?",
         "Q9 — What are vector operations in Java (Project Panama), and how do they improve performance?",
-        "Q26 — Describe the Vector API and how it leverages SIMD.",
         "Q35 — What are the use cases for Direct Buffers and off-heap memory?"
       ]
     },
     {
-      "section": "G — Diagnostics & tooling",
+      "section": "E — Runtime & tooling",
       "subtopics": [
-        "Q36 — How does JFR simplify production profiling in Java 11+?",
+        "Q29 — How do hidden classes improve JVM performance for frameworks like Spring?",
         "Q13 — Explain how Java's StackWalker API simplifies stack trace analysis.",
         "Q20 — How does Java 14 improve null pointer exception handling?",
         "Q11 — What is the purpose of jshell?"
       ]
     },
     {
-      "section": "H — Library & API enhancements",
-      "subtopics": [
-        "Q33 — What improvements were introduced to the Stream API in recent Java versions?",
-        "Q39 — How do java.time API enhancements improve date/time operations?",
-        "Q34 — How do compact number formatting and new currency symbols improve localization?"
-      ]
-    },
-    {
-      "section": "I — Platform evolution, security & deprecations",
+      "section": "F — Platform evolution & deprecations",
       "subtopics": [
         "Q25 — What are the key benefits of Java 17 as an LTS version?",
-        "Q30 — Explain the purpose of JEP 411 (Deprecation of the Security Manager) and its implications.",
-        "Q31 — What are context-specific deserialization filters in Java 9+?",
         "Q22 — Explain the motivation behind deprecating RMI and its alternatives."
       ]
     }

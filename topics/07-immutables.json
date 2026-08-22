@@ -6,33 +6,25 @@
       "section": "A — Why immutability",
       "subtopics": [
         "A1 — What immutability buys you — thread-safety, caching, reasoning",
-        "A2 — Immutable vs unmodifiable vs read-only view"
+        "A2 — Immutable vs unmodifiable vs read-only view",
+        "A3 — Why String is immutable"
       ]
     },
     {
-      "section": "B — Strings",
+      "section": "B — Immutable collections",
       "subtopics": [
-        "B1 — Why String is immutable",
-        "B2 — The String pool and intern()",
-        "B3 — substring() before and after Java 7u6",
-        "B4 — Encoding and Charset"
+        "B1 — List.of / Map.of / Set.of",
+        "B2 — Collections.unmodifiableList — the view that lies",
+        "B3 — List.copyOf and immutable collectors"
       ]
     },
     {
-      "section": "C — Immutable collections",
+      "section": "C — Designing immutable types",
       "subtopics": [
-        "C1 — List.of / Map.of / Set.of",
-        "C2 — Collections.unmodifiableList — the view that lies",
-        "C3 — List.copyOf and immutable collectors"
-      ]
-    },
-    {
-      "section": "D — Designing immutable types",
-      "subtopics": [
-        "D1 — The rules for a properly immutable class",
-        "D2 — Records — immutability with a caveat",
-        "D3 — Deep vs shallow immutability",
-        "D4 — Withers — changing one field without setters"
+        "C1 — The rules for a properly immutable class",
+        "C2 — Records — immutability with a caveat",
+        "C3 — Deep vs shallow immutability",
+        "C4 — Withers — changing one field without setters"
       ]
     }
   ]

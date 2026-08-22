@@ -34,7 +34,7 @@
     {
       "section": "D — Debugging and measurement",
       "subtopics": [
-        "D1 — Profiling and debugging",
+        "D1 — Debugging a failing test",
         "D2 — Coverage — what the number does and does not mean"
       ]
     }

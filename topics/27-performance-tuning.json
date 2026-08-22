@@ -3,28 +3,38 @@
   "topic": "Performance Tuning",
   "sections": [
     {
-      "section": "A — Finding & measuring bottlenecks",
+      "section": "A — Measuring first",
       "subtopics": [
-        "Q1 — How do you identify performance bottlenecks in a Java application using profiling tools?",
+        "Q11 — Why does performance work start with a measurement, and what goes wrong without one?",
+        "Q12 — What is the difference between a sampling profiler and an instrumenting one?",
+        "Q13 — How do you read a flame graph?",
+        "Q3 — How do you debug high CPU usage caused by infinite loops or heavy computation?"
+      ]
+    },
+    {
+      "section": "B — Benchmarking",
+      "subtopics": [
         "Q10 — How would you design a benchmarking framework to evaluate Java code performance?",
-        "Q3 — How do you debug high CPU usage caused by infinite loops or heavy computation?",
-        "Q4 — What is the purpose of memory profiling, and how would you analyze its results?",
-        "Q2 — What is the significance of thread contention, and how do you mitigate it?"
+        "Q14 — Why can a microbenchmark not be a plain main() with System.nanoTime()?",
+        "Q15 — What does JMH do about warmup, dead-code elimination and constant folding?",
+        "Q16 — How do you benchmark allocation-heavy code without measuring the wrong thing?"
       ]
     },
     {
-      "section": "B — Throughput & concurrency optimisation",
+      "section": "C — Latency and throughput",
       "subtopics": [
-        "Q5 — Explain how asynchronous programming impacts performance in Java.",
-        "Q6 — How does the ForkJoinPool framework optimize performance for divide-and-conquer tasks?",
-        "Q8 — How do you implement throttling for API calls in a high-load Java application?"
+        "Q17 — Why is average latency the wrong number to report, and what replaces it?",
+        "Q18 — What is coordinated omission, and how does it flatter a load test?",
+        "Q19 — How does Little's Law relate concurrency, throughput and latency?",
+        "Q20 — Where does tail latency come from in a JVM service?"
       ]
     },
     {
-      "section": "C — Code-level & startup optimisation",
+      "section": "D — Load testing",
       "subtopics": [
-        "Q7 — Describe how Java's Stream API can both enhance and degrade performance.",
-        "Q9 — What strategies can be used to optimize startup time in Java applications?"
+        "Q21 — How do you build a load test that resembles production traffic?",
+        "Q22 — What is the difference between a load test, a stress test and a soak test?",
+        "Q23 — How do you find the knee of the throughput curve?"
       ]
     }
   ]

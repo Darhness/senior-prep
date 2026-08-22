@@ -39,55 +39,43 @@
       ]
     },
     {
-      "section": "E — Kafka",
+      "section": "E — Kubernetes",
       "subtopics": [
-        "E1 — Topics, partitions and offsets",
-        "E2 — Consumer groups and rebalancing",
-        "E3 — Delivery semantics — at-most-once, at-least-once, exactly-once",
-        "E4 — Ordering, keys and partitioning strategy",
-        "E5 — Retention, compaction and replay",
-        "E6 — Kafka from Java — the producer and consumer config that matters",
-        "E7 — Managed Kafka — MSK (Azure: Event Hubs, Confluent Cloud)",
-        "E8 — Kafka vs SQS/SNS vs RabbitMQ (Azure: Service Bus)"
+        "E1 — The object model — pod, deployment, service, ingress",
+        "E2 — Scheduling, requests and limits",
+        "E3 — ConfigMaps and Secrets",
+        "E4 — Health probes — liveness, readiness, startup",
+        "E5 — Horizontal Pod Autoscaler and scaling signals",
+        "E6 — Rolling updates, rollbacks and disruption budgets",
+        "E7 — The JVM on Kubernetes — memory limits and OOMKilled",
+        "E8 — Managed Kubernetes — EKS vs AKS"
       ]
     },
     {
-      "section": "F — Kubernetes",
+      "section": "F — Managed data services",
       "subtopics": [
-        "F1 — The object model — pod, deployment, service, ingress",
-        "F2 — Scheduling, requests and limits",
-        "F3 — ConfigMaps and Secrets",
-        "F4 — Health probes — liveness, readiness, startup",
-        "F5 — Horizontal Pod Autoscaler and scaling signals",
-        "F6 — Rolling updates, rollbacks and disruption budgets",
-        "F7 — The JVM on Kubernetes — memory limits and OOMKilled",
-        "F8 — Managed Kubernetes — EKS vs AKS"
+        "F1 — Relational — RDS and Aurora (Azure: SQL Database)",
+        "F2 — NoSQL — DynamoDB (Azure: Cosmos DB)",
+        "F3 — Cache — ElastiCache (Azure: Cache for Redis)",
+        "F4 — Managed Kafka — MSK (Azure: Event Hubs, Confluent Cloud)"
       ]
     },
     {
-      "section": "G — Managed data services",
+      "section": "G — Networking and delivery",
       "subtopics": [
-        "G1 — Relational — RDS and Aurora (Azure: SQL Database)",
-        "G2 — NoSQL — DynamoDB (Azure: Cosmos DB)",
-        "G3 — Cache — ElastiCache (Azure: Cache for Redis)"
+        "G1 — VPC, subnets and security groups (Azure: VNet, NSG)",
+        "G2 — Load balancers — ALB and NLB (Azure: Application Gateway, Load Balancer)",
+        "G3 — CDN — CloudFront (Azure: Front Door)",
+        "G4 — API Gateway (Azure: API Management)"
       ]
     },
     {
-      "section": "H — Networking and delivery",
+      "section": "H — Operating in the cloud",
       "subtopics": [
-        "H1 — VPC, subnets and security groups (Azure: VNet, NSG)",
-        "H2 — Load balancers — ALB and NLB (Azure: Application Gateway, Load Balancer)",
-        "H3 — CDN — CloudFront (Azure: Front Door)",
-        "H4 — API Gateway (Azure: API Management)"
-      ]
-    },
-    {
-      "section": "I — Operating in the cloud",
-      "subtopics": [
-        "I1 — Observability — CloudWatch and X-Ray (Azure: Monitor, Application Insights)",
-        "I2 — Infrastructure as code — Terraform, CloudFormation, Bicep",
-        "I3 — CI/CD to the cloud",
-        "I4 — Resilience — retries, timeouts, multi-AZ and multi-region"
+        "H1 — Observability — CloudWatch and X-Ray (Azure: Monitor, Application Insights)",
+        "H2 — Infrastructure as code — Terraform, CloudFormation, Bicep",
+        "H3 — CI/CD to the cloud",
+        "H4 — Resilience — retries, timeouts, multi-AZ and multi-region"
       ]
     }
   ]

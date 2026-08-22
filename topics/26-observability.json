@@ -13,8 +13,7 @@
     {
       "section": "B — Observability in distributed systems",
       "subtopics": [
-        "Q2 — Explain the role of distributed tracing in Java-based microservices.",
-        "Q4 — Describe how you would configure log aggregation in a distributed Java application."
+        "Q2 — Explain the role of distributed tracing in Java-based microservices."
       ]
     },
     {

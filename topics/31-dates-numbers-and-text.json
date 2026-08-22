@@ -37,12 +37,15 @@
       "section": "C — Strings and text",
       "subtopics": [
         "C1 — String internals — the backing array, compact strings, the cached hash",
-        "C2 — What javac does with + concatenation, and invokedynamic since Java 9",
-        "C3 — Unicode, code points, and why length() lies",
-        "C4 — Case conversion, locale and the Turkish i",
-        "C5 — Splitting, joining and String.format",
-        "C6 — Normalization and comparing user-supplied text",
-        "C7 — Reading and writing text — Charset at every boundary"
+        "C2 — The String pool and intern()",
+        "C3 — substring() before and after Java 7u6",
+        "C4 — Building a string — StringBuilder vs StringBuffer",
+        "C5 — What javac does with + concatenation, and invokedynamic since Java 9",
+        "C6 — Unicode, code points, and why length() lies",
+        "C7 — Case conversion, locale and the Turkish i",
+        "C8 — Splitting, joining and String.format",
+        "C9 — Normalization and comparing user-supplied text",
+        "C10 — Reading and writing text — Charset at every boundary"
       ]
     },
     {

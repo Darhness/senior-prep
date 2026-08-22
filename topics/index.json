@@ -149,6 +149,31 @@
       "id": "30",
       "topic": "Scenario-Based Questions",
       "file": "30-scenario-based-questions.json"
+    },
+    {
+      "id": "31",
+      "topic": "Dates, Numbers & Text",
+      "file": "31-dates-numbers-and-text.json"
+    },
+    {
+      "id": "32",
+      "topic": "Serialization",
+      "file": "32-serialization.json"
+    },
+    {
+      "id": "33",
+      "topic": "Logging",
+      "file": "33-logging.json"
+    },
+    {
+      "id": "34",
+      "topic": "Networking & HTTP",
+      "file": "34-networking-and-http.json"
+    },
+    {
+      "id": "35",
+      "topic": "Application Architecture",
+      "file": "35-application-architecture.json"
     }
   ]
 }

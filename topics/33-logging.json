@@ -1,0 +1,58 @@
+{
+  "id": "33",
+  "topic": "Logging",
+  "sections": [
+    {
+      "section": "A — The Java logging stack",
+      "subtopics": [
+        "A1 — SLF4J as a facade, and why the facade exists",
+        "A2 — Logback, Log4j2 and java.util.logging",
+        "A3 — Bindings and bridges — the multiple-binding warning",
+        "A4 — Log4Shell — what it was and what it changed"
+      ]
+    },
+    {
+      "section": "B — Writing a log line",
+      "subtopics": [
+        "B1 — Levels — what each one means, and who reads it",
+        "B2 — Parameterized messages vs string concatenation",
+        "B3 — isDebugEnabled — the guard that is usually pointless",
+        "B4 — Logging an exception — the stack trace and the cause chain",
+        "B5 — What never goes in a log — secrets, tokens, PII",
+        "B6 — Writing for the person on call at 3am",
+        "B7 — Log or throw — not both"
+      ]
+    },
+    {
+      "section": "C — Structure and context",
+      "subtopics": [
+        "C1 — Plain text vs JSON output",
+        "C2 — MDC — request id, user, tenant",
+        "C3 — MDC across thread pools, CompletableFuture and virtual threads",
+        "C4 — Correlation and trace ids — tying a log to a trace",
+        "C5 — Field naming, and keeping the schema stable"
+      ]
+    },
+    {
+      "section": "D — Configuration and output",
+      "subtopics": [
+        "D1 — Appenders — console, file, syslog, network",
+        "D2 — Rolling policies and retention",
+        "D3 — Async appenders — the queue, the drop policy, the cost",
+        "D4 — Per-environment configuration, and changing a level at runtime",
+        "D5 — Logging from a container — stdout and the collector",
+        "D6 — Spring Boot logging defaults and how to override them"
+      ]
+    },
+    {
+      "section": "E — Logs as an operational asset",
+      "subtopics": [
+        "E1 — Shipping logs — agent, sidecar or direct",
+        "E2 — Sampling and rate-limiting a noisy logger",
+        "E3 — The cost of logging — volume, storage and ingest bills",
+        "E4 — Audit logs — different requirements, different pipeline",
+        "E5 — Searching logs during an incident"
+      ]
+    }
+  ]
+}

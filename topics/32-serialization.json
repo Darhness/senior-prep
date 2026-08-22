@@ -1,0 +1,56 @@
+{
+  "id": "32",
+  "topic": "Serialization",
+  "sections": [
+    {
+      "section": "A — Java serialization",
+      "subtopics": [
+        "A1 — What Serializable actually does",
+        "A2 — serialVersionUID and version compatibility",
+        "A3 — transient, and what never gets written",
+        "A4 — writeObject, readObject, readResolve and writeReplace",
+        "A5 — Externalizable",
+        "A6 — Serialization and inheritance",
+        "A7 — The serialization proxy pattern",
+        "A8 — The case against Java serialization"
+      ]
+    },
+    {
+      "section": "B — JSON with Jackson",
+      "subtopics": [
+        "B1 — ObjectMapper — configuration, reuse and thread safety",
+        "B2 — How a value gets bound — fields, getters, constructors",
+        "B3 — @JsonProperty, @JsonIgnore and naming strategies",
+        "B4 — Null, absent and empty — three different things",
+        "B5 — java.time and the JavaTimeModule",
+        "B6 — Records and immutable types — the missing default constructor",
+        "B7 — Polymorphic types — @JsonTypeInfo and the security problem",
+        "B8 — Custom serializers and deserializers",
+        "B9 — Trees and streaming — JsonNode and the token API",
+        "B10 — Views, filters and conditional inclusion",
+        "B11 — Unknown properties — strict readers vs tolerant readers",
+        "B12 — Performance — reflection cost, reuse, and large payloads"
+      ]
+    },
+    {
+      "section": "C — Binary and schema formats",
+      "subtopics": [
+        "C1 — Protobuf — the schema, the generated code, the wire format",
+        "C2 — Avro — writer schema vs reader schema",
+        "C3 — Other binary formats — MessagePack, CBOR, Kryo",
+        "C4 — Choosing a format — size, speed, evolution, debuggability"
+      ]
+    },
+    {
+      "section": "D — Serialization at the boundary",
+      "subtopics": [
+        "D1 — The wire model vs the domain model — why they diverge",
+        "D2 — DTOs and mapping — by hand, MapStruct, or not at all",
+        "D3 — Adding and removing a field without breaking a reader",
+        "D4 — Enums on the wire — the unknown-value problem",
+        "D5 — Large payloads — streaming instead of materializing",
+        "D6 — What must never leave the process"
+      ]
+    }
+  ]
+}

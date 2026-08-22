@@ -16,14 +16,6 @@
         "B2 — Service discovery and API gateways",
         "B3 — Synchronous vs event-driven communication"
       ]
-    },
-    {
-      "section": "C — Packaging and running",
-      "subtopics": [
-        "C1 — Dockerising Java properly",
-        "C2 — Running Java on Kubernetes",
-        "C3 — JVM tuning inside a container"
-      ]
     }
   ]
 }

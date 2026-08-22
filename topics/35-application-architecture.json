@@ -1,0 +1,76 @@
+{
+  "id": "35",
+  "topic": "Application Architecture",
+  "sections": [
+    {
+      "section": "A — Layering and the dependency rule",
+      "subtopics": [
+        "A1 — Why layers exist, and what each one is allowed to know",
+        "A2 — The dependency rule — which way the arrows point",
+        "A3 — Dependency inversion at architectural scale",
+        "A4 — Layered, onion and clean — comparing the three",
+        "A5 — Where the transaction boundary belongs",
+        "A6 — Where validation belongs"
+      ]
+    },
+    {
+      "section": "B — Ports and adapters",
+      "subtopics": [
+        "B1 — The shape of the hexagon",
+        "B2 — Driving ports vs driven ports",
+        "B3 — Writing an adapter — HTTP, messaging, persistence",
+        "B4 — Keeping the framework out of the domain",
+        "B5 — The mapping tax, and who pays it",
+        "B6 — When hexagonal is over-engineering"
+      ]
+    },
+    {
+      "section": "C — Domain-driven design — strategic",
+      "subtopics": [
+        "C1 — Ubiquitous language, and who has to be in the room",
+        "C2 — Bounded context, and how to find one",
+        "C3 — Context mapping — shared kernel, conformist, anti-corruption layer",
+        "C4 — Core, supporting and generic subdomains",
+        "C5 — Bounded context vs microservice — how they relate",
+        "C6 — Event storming as a discovery technique"
+      ]
+    },
+    {
+      "section": "D — Domain-driven design — tactical",
+      "subtopics": [
+        "D1 — Entity vs value object",
+        "D2 — Aggregates and consistency boundaries",
+        "D3 — Choosing the aggregate root, and keeping it small",
+        "D4 — Referencing another aggregate",
+        "D5 — Repository — granularity and what it returns",
+        "D6 — Domain service vs application service",
+        "D7 — Domain events, and when they fire",
+        "D8 — Factories and rich construction",
+        "D9 — Invariants — where each one is enforced",
+        "D10 — Mapping an aggregate onto JPA without leaking"
+      ]
+    },
+    {
+      "section": "E — Structuring the codebase",
+      "subtopics": [
+        "E1 — Package by feature vs package by layer",
+        "E2 — Visibility as the boundary — package-private, sealed, JPMS",
+        "E3 — The modular monolith",
+        "E4 — Module boundaries in Maven and Gradle",
+        "E5 — Shared code between modules — when it couples them",
+        "E6 — Where the DTO lives, and how many of them there are"
+      ]
+    },
+    {
+      "section": "F — Keeping the architecture honest",
+      "subtopics": [
+        "F1 — Enforcing boundaries with ArchUnit",
+        "F2 — Architecture decision records",
+        "F3 — Architectural fitness functions",
+        "F4 — How a boundary erodes — the usual first crack",
+        "F5 — Refactoring toward a boundary in a live codebase",
+        "F6 — Explaining an architecture at a whiteboard"
+      ]
+    }
+  ]
+}

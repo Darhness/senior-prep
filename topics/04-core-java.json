@@ -6,7 +6,9 @@
       "section": "A — Language fundamentals",
       "subtopics": [
         "A1 — Primitive types — the table, corrected",
-        "A2 — Release map (JDK 8 → 25)"
+        "A2 — Autoboxing, the Integer cache and == on boxed types",
+        "A3 — clone, Cloneable and copy constructors",
+        "A4 — Release map (JDK 8 → 25)"
       ]
     },
     {
@@ -51,6 +53,35 @@
         "F4 — Supplier as a lazy value, and memoisation",
         "F5 — Lazy proxies — how Spring @Lazy and Hibernate do it",
         "F6 — When lazy backfires — hidden latency and the loading exception"
+      ]
+    },
+    {
+      "section": "G — Nested types",
+      "subtopics": [
+        "G1 — Static nested vs inner classes",
+        "G2 — The implicit outer reference — the inner-class leak",
+        "G3 — Local and anonymous classes",
+        "G4 — When a nested type beats a top-level one"
+      ]
+    },
+    {
+      "section": "H — Enums",
+      "subtopics": [
+        "H1 — An enum is a class — fields, methods, constructors",
+        "H2 — Constant-specific bodies and enums implementing an interface",
+        "H3 — The enum singleton idiom",
+        "H4 — values(), ordinal() and what must never be persisted",
+        "H5 — Enums as a state machine or a strategy table"
+      ]
+    },
+    {
+      "section": "I — Annotations",
+      "subtopics": [
+        "I1 — Declaring one — @Target, @Retention, @Inherited",
+        "I2 — Reading annotations at runtime",
+        "I3 — Meta-annotations and composed annotations",
+        "I4 — Annotation processors and generated source",
+        "I5 — Lombok — what it generates, and the cost"
       ]
     }
   ]

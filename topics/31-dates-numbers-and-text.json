@@ -1,0 +1,78 @@
+{
+  "id": "31",
+  "topic": "Dates, Numbers & Text",
+  "sections": [
+    {
+      "section": "A — Date and time",
+      "subtopics": [
+        "A1 — Why Date and Calendar were replaced",
+        "A2 — The java.time types — Instant, LocalDate, LocalDateTime, ZonedDateTime, OffsetDateTime",
+        "A3 — Picking the right type for a field",
+        "A4 — Time zones, ZoneId and the tz database",
+        "A5 — Daylight saving — the gap, the overlap, and what breaks",
+        "A6 — Duration vs Period",
+        "A7 — Formatting and parsing — DateTimeFormatter and ISO-8601",
+        "A8 — Storing time — UTC in the database, offset at the edge",
+        "A9 — Clock — making time testable",
+        "A10 — Time at the boundary — JSON, JDBC and JPA",
+        "A11 — Ranges, overlaps and half-open intervals",
+        "A12 — Leap years, leap seconds and other calendar traps"
+      ]
+    },
+    {
+      "section": "B — Numbers and money",
+      "subtopics": [
+        "B1 — How a double is stored, and what it cannot represent",
+        "B2 — Floating-point comparison and accumulated error",
+        "B3 — BigDecimal — scale, rounding modes, equals vs compareTo",
+        "B4 — Representing money — minor units, currency and rounding rules",
+        "B5 — Integer overflow and the Math.*Exact methods",
+        "B6 — Integer division, negative modulo and Math.floorMod",
+        "B7 — Widening, narrowing and the surprising casts",
+        "B8 — BigInteger — when the range runs out",
+        "B9 — Parsing numbers safely — NumberFormat, locale and untrusted input"
+      ]
+    },
+    {
+      "section": "C — Strings and text",
+      "subtopics": [
+        "C1 — String internals — the backing array, compact strings, the cached hash",
+        "C2 — What javac does with + concatenation, and invokedynamic since Java 9",
+        "C3 — Unicode, code points, and why length() lies",
+        "C4 — Case conversion, locale and the Turkish i",
+        "C5 — Splitting, joining and String.format",
+        "C6 — Normalization and comparing user-supplied text",
+        "C7 — Reading and writing text — Charset at every boundary"
+      ]
+    },
+    {
+      "section": "D — Regular expressions",
+      "subtopics": [
+        "D1 — Pattern and Matcher — compile once, match many",
+        "D2 — Groups, named groups and backreferences",
+        "D3 — Greedy, reluctant and possessive quantifiers",
+        "D4 — Lookahead and lookbehind",
+        "D5 — Catastrophic backtracking — ReDoS",
+        "D6 — Anchors, multiline and the flags that change everything",
+        "D7 — When a regex is the wrong tool"
+      ]
+    },
+    {
+      "section": "E — Locale and formatting for people",
+      "subtopics": [
+        "E1 — Locale — where it comes from and what it changes",
+        "E2 — Formatting numbers, currency and dates for a user",
+        "E3 — ResourceBundle and message templates",
+        "E4 — The default-locale trap in a server process"
+      ]
+    },
+    {
+      "section": "F — Small APIs that keep coming up",
+      "subtopics": [
+        "F1 — java.util.Objects — requireNonNull, equals, hash, toString",
+        "F2 — UUID — the versions, and the cost of v4 as a key",
+        "F3 — System properties, environment variables and Runtime"
+      ]
+    }
+  ]
+}

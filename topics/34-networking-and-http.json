@@ -1,0 +1,75 @@
+{
+  "id": "34",
+  "topic": "Networking & HTTP",
+  "sections": [
+    {
+      "section": "A — The network under the call",
+      "subtopics": [
+        "A1 — TCP — the handshake, and what a connection costs",
+        "A2 — TCP keep-alive vs HTTP keep-alive",
+        "A3 — Buffering, Nagle and small-write latency",
+        "A4 — Packet loss, retransmission and the latency spike",
+        "A5 — Bandwidth, latency and round trips — which one you are short of"
+      ]
+    },
+    {
+      "section": "B — DNS and resolution",
+      "subtopics": [
+        "B1 — Resolution — resolver, TTL, and who caches",
+        "B2 — JVM DNS caching — networkaddress.cache.ttl",
+        "B3 — DNS-based failover and its blast radius",
+        "B4 — DNS vs a service registry"
+      ]
+    },
+    {
+      "section": "C — TLS",
+      "subtopics": [
+        "C1 — The handshake — what each round trip buys",
+        "C2 — Certificates, chains and hostname verification",
+        "C3 — Session resumption, TLS 1.3 and 0-RTT",
+        "C4 — mTLS — and where it terminates",
+        "C5 — Certificate expiry as an outage cause"
+      ]
+    },
+    {
+      "section": "D — HTTP versions",
+      "subtopics": [
+        "D1 — HTTP/1.1 — head-of-line blocking and the connection count",
+        "D2 — HTTP/2 — multiplexing, streams and flow control",
+        "D3 — HTTP/3 and QUIC",
+        "D4 — What changes for the client, and what does not"
+      ]
+    },
+    {
+      "section": "E — HTTP clients in Java",
+      "subtopics": [
+        "E1 — The field — HttpURLConnection, Apache HttpClient, OkHttp, java.net.http",
+        "E2 — Connection pooling — sizing, eviction, reuse",
+        "E3 — Timeouts — connect, read, write, and the total that nobody sets",
+        "E4 — Which requests are safe to retry",
+        "E5 — Proxies, redirects and cookies",
+        "E6 — Blocking vs non-blocking clients, and what virtual threads change"
+      ]
+    },
+    {
+      "section": "F — Diagnosing a network problem",
+      "subtopics": [
+        "F1 — Where the time went — DNS, connect, TLS, first byte, transfer",
+        "F2 — curl -v, tcpdump and Wireshark",
+        "F3 — netstat, ss, and reading socket state",
+        "F4 — TIME_WAIT, ephemeral port exhaustion and file descriptors",
+        "F5 — Connection reset and broken pipe — what they actually mean",
+        "F6 — Slow client, slow server or slow network — telling them apart"
+      ]
+    },
+    {
+      "section": "G — Proxies and the path in between",
+      "subtopics": [
+        "G1 — L4 vs L7 — what each one can see",
+        "G2 — Reverse proxies, sidecars and hop-by-hop headers",
+        "G3 — X-Forwarded-For and the client IP you actually get",
+        "G4 — Idle timeouts along the path — the 504 nobody owns"
+      ]
+    }
+  ]
+}

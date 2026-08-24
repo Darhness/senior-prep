@@ -1,19 +1,18 @@
 {
-  "id": "30",
+  "id": "36",
   "topic": "Scenario-Based Questions",
   "sections": [
     {
       "section": "A — Method",
       "subtopics": [
-        "How to answer any scenario question"
+        "Q11 — How do you approach a scenario question you have not seen before?"
       ]
     },
     {
       "section": "B — Diagnosing production problems",
       "subtopics": [
         "Q1 — How would you debug a memory leak in a Java web application running in production?",
-        "Q8 — How do you diagnose and resolve deadlocks in multithreaded applications?",
-        "Q7 — How would you integrate logging frameworks like SLF4J with multiple backends?"
+        "Q8 — How do you diagnose and resolve deadlocks in multithreaded applications?"
       ]
     },
     {

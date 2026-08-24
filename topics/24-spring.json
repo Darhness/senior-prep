@@ -1,5 +1,5 @@
 {
-  "id": "18",
+  "id": "24",
   "topic": "Spring",
   "sections": [
     {
@@ -39,12 +39,11 @@
       "subtopics": [
         "D1 — @Transactional — what it actually does",
         "D2 — Propagation levels",
-        "D3 — Isolation levels and what they prevent",
+        "D3 — Setting isolation on @Transactional — and what Spring does not do",
         "D4 — Rollback rules — checked vs unchecked exceptions",
         "D5 — Why @Transactional silently does nothing",
-        "D6 — Spring Data JPA — repositories and derived queries",
-        "D7 — The N+1 problem and fetch strategies",
-        "D8 — JdbcTemplate vs JPA — when to drop down"
+        "D6 — Spring Data JPA — the repository proxy and what it wires up",
+        "D7 — JdbcTemplate vs JPA — when to drop down"
       ]
     },
     {
@@ -78,7 +77,7 @@
         "G3 — Method security with @PreAuthorize",
         "G4 — JWT and stateless sessions",
         "G5 — OAuth2 and OIDC in Spring",
-        "G6 — CSRF, CORS and the common misconfigurations"
+        "G6 — Configuring CSRF and CORS in Spring — the common misconfigurations"
       ]
     },
     {

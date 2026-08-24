@@ -1,5 +1,5 @@
 {
-  "id": "25",
+  "id": "32",
   "topic": "Cloud",
   "sections": [
     {
@@ -39,43 +39,30 @@
       ]
     },
     {
-      "section": "E — Kubernetes",
+      "section": "E — Managed data services",
       "subtopics": [
-        "E1 — The object model — pod, deployment, service, ingress",
-        "E2 — Scheduling, requests and limits",
-        "E3 — ConfigMaps and Secrets",
-        "E4 — Health probes — liveness, readiness, startup",
-        "E5 — Horizontal Pod Autoscaler and scaling signals",
-        "E6 — Rolling updates, rollbacks and disruption budgets",
-        "E7 — The JVM on Kubernetes — memory limits and OOMKilled",
-        "E8 — Managed Kubernetes — EKS vs AKS"
+        "E1 — Relational — RDS and Aurora (Azure: SQL Database)",
+        "E2 — NoSQL — DynamoDB (Azure: Cosmos DB)",
+        "E3 — Cache — ElastiCache (Azure: Cache for Redis)",
+        "E4 — Managed Kafka — MSK (Azure: Event Hubs, Confluent Cloud)"
       ]
     },
     {
-      "section": "F — Managed data services",
+      "section": "F — Networking and delivery",
       "subtopics": [
-        "F1 — Relational — RDS and Aurora (Azure: SQL Database)",
-        "F2 — NoSQL — DynamoDB (Azure: Cosmos DB)",
-        "F3 — Cache — ElastiCache (Azure: Cache for Redis)",
-        "F4 — Managed Kafka — MSK (Azure: Event Hubs, Confluent Cloud)"
+        "F1 — VPC, subnets and security groups (Azure: VNet, NSG)",
+        "F2 — Load balancers — ALB and NLB (Azure: Application Gateway, Load Balancer)",
+        "F3 — CDN — CloudFront (Azure: Front Door)",
+        "F4 — API Gateway (Azure: API Management)"
       ]
     },
     {
-      "section": "G — Networking and delivery",
+      "section": "G — Operating in the cloud",
       "subtopics": [
-        "G1 — VPC, subnets and security groups (Azure: VNet, NSG)",
-        "G2 — Load balancers — ALB and NLB (Azure: Application Gateway, Load Balancer)",
-        "G3 — CDN — CloudFront (Azure: Front Door)",
-        "G4 — API Gateway (Azure: API Management)"
-      ]
-    },
-    {
-      "section": "H — Operating in the cloud",
-      "subtopics": [
-        "H1 — Observability — CloudWatch and X-Ray (Azure: Monitor, Application Insights)",
-        "H2 — Infrastructure as code — Terraform, CloudFormation, Bicep",
-        "H3 — CI/CD to the cloud",
-        "H4 — Resilience — retries, timeouts, multi-AZ and multi-region"
+        "G1 — Observability — CloudWatch and X-Ray (Azure: Monitor, Application Insights)",
+        "G2 — Infrastructure as code — Terraform, CloudFormation, Bicep",
+        "G3 — Deploying from a pipeline — OIDC and short-lived credentials",
+        "G4 — Multi-AZ and multi-region — what the provider gives you"
       ]
     }
   ]

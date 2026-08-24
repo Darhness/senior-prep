@@ -1,0 +1,82 @@
+{
+  "id": "30",
+  "topic": "Kubernetes",
+  "sections": [
+    {
+      "section": "A — The object model",
+      "subtopics": [
+        "A1 — Pod, ReplicaSet and Deployment",
+        "A2 — Service and Endpoints",
+        "A3 — Ingress and the Gateway API",
+        "A4 — Namespaces, labels and selectors",
+        "A5 — StatefulSet, DaemonSet, Job and CronJob"
+      ]
+    },
+    {
+      "section": "B — Scheduling and resources",
+      "subtopics": [
+        "B1 — How the scheduler places a pod",
+        "B2 — Requests vs limits — what each one actually does",
+        "B3 — QoS classes — Guaranteed, Burstable, BestEffort",
+        "B4 — CPU throttling and the CFS quota",
+        "B5 — Node pressure and eviction",
+        "B6 — Node selectors, affinity, taints and tolerations"
+      ]
+    },
+    {
+      "section": "C — Lifecycle and rollout",
+      "subtopics": [
+        "C1 — Health probes — liveness, readiness, startup",
+        "C2 — Rolling updates, rollbacks and the deployment strategy",
+        "C3 — Pod disruption budgets",
+        "C4 — Pod termination — SIGTERM, terminationGracePeriod, preStop",
+        "C5 — Init containers and sidecars"
+      ]
+    },
+    {
+      "section": "D — Scaling",
+      "subtopics": [
+        "D1 — Horizontal Pod Autoscaler and the signals it reads",
+        "D2 — Vertical Pod Autoscaler, and why it fights the HPA",
+        "D3 — Cluster autoscaling and the pending pod",
+        "D4 — Scaling on a custom or external metric"
+      ]
+    },
+    {
+      "section": "E — Running the JVM on Kubernetes",
+      "subtopics": [
+        "E1 — Requests and limits for a JVM pod",
+        "E2 — Probes and the slow-starting JVM",
+        "E3 — Finishing in-flight requests before the pod goes"
+      ]
+    },
+    {
+      "section": "F — Configuration and secrets",
+      "subtopics": [
+        "F1 — ConfigMap and Secret — env vars vs mounted files",
+        "F2 — Reloading configuration without a restart",
+        "F3 — External secret stores and CSI drivers",
+        "F4 — Per-environment config — Kustomize and Helm"
+      ]
+    },
+    {
+      "section": "G — Networking",
+      "subtopics": [
+        "G1 — ClusterIP, NodePort and LoadBalancer",
+        "G2 — Cluster DNS and service discovery",
+        "G3 — Network policies",
+        "G4 — Service mesh — what it adds and what it costs"
+      ]
+    },
+    {
+      "section": "H — Operating a cluster",
+      "subtopics": [
+        "H1 — kubectl for diagnosis — describe, logs, events, exec",
+        "H2 — CrashLoopBackOff and ImagePullBackOff",
+        "H3 — Pending pods — why nothing schedules",
+        "H4 — RBAC and service accounts",
+        "H5 — Where Kubernetes is the wrong answer"
+      ]
+    }
+  ]
+}

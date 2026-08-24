@@ -1,31 +1,30 @@
 {
-  "id": "12",
+  "id": "14",
   "topic": "Memory & Garbage Collection",
   "sections": [
     {
       "section": "A — JVM memory model foundations",
       "subtopics": [
-        "The memory model you need first",
-        "Q5 — Describe how generational garbage collection works in Java.",
-        "Q3 — What is the purpose of the Survivor Space in the JVM memory model?",
-        "Q9 — What is the purpose of class unloading in GC? How does it affect long-running applications?"
+        "A1 — Generational collection and the weak generational hypothesis",
+        "A2 — Eden, the survivor spaces and tenuring",
+        "A3 — Class unloading, and what it means for a long-running process"
       ]
     },
     {
       "section": "B — Collectors & tuning",
       "subtopics": [
-        "Q1 — Explain the differences between GC algorithms: Serial, Parallel, CMS, G1, ZGC, and Shenandoah.",
-        "Q6 — How do GC pauses impact application performance, and how can you mitigate them?",
-        "Q2 — How would you tune the JVM's garbage collector for a low-latency application?"
+        "B1 — The collectors — Serial, Parallel, CMS, G1, ZGC, Shenandoah",
+        "B2 — Where a GC pause costs you, and how to shorten it",
+        "B3 — Tuning for a latency target"
       ]
     },
     {
       "section": "C — Diagnostics & monitoring",
       "subtopics": [
-        "Q4 — How can you configure JVM flags to analyze GC behavior in production?",
-        "Q10 — Describe how GC logging formats (Unified vs. Classic) impact diagnostics.",
-        "Q7 — What are the key metrics to monitor for evaluating garbage collection efficiency?",
-        "Q8 — How would you troubleshoot OutOfMemoryError caused by GC overhead?"
+        "C1 — The GC logging flags worth setting in production",
+        "C2 — Unified vs classic GC log format",
+        "C3 — The GC metrics that matter",
+        "C4 — GC overhead limit exceeded — reading the failure"
       ]
     },
     {
@@ -57,7 +56,7 @@
     {
       "section": "F — Preventing leaks",
       "subtopics": [
-        "F1 — Bounded caches and eviction policies",
+        "F1 — Bounded caches — why an unbounded one leaks",
         "F2 — Weak and soft references — the correct use",
         "F3 — Lifecycle ownership — who closes what",
         "F4 — Leak canaries in monitoring"

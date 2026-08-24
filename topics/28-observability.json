@@ -1,0 +1,60 @@
+{
+  "id": "28",
+  "topic": "Observability",
+  "sections": [
+    {
+      "section": "A — The three signals",
+      "subtopics": [
+        "Q5 — What are the differences between metrics, logs, and traces? How do they complement each other?",
+        "Q1 — How would you instrument a Java application for observability using OpenTelemetry?",
+        "Q12 — What does OpenTelemetry standardize, and what still differs per backend?"
+      ]
+    },
+    {
+      "section": "B — Metrics",
+      "subtopics": [
+        "Q10 — What is the significance of custom metrics in monitoring Java applications? Provide examples.",
+        "Q13 — What are the metric types — counter, gauge, histogram, summary — and when is each the wrong one?",
+        "Q14 — What is a cardinality explosion, and which label choices cause one?",
+        "Q15 — How do you choose between the RED method and the USE method?",
+        "Q16 — Why can you not average a percentile across instances?"
+      ]
+    },
+    {
+      "section": "C — Tracing",
+      "subtopics": [
+        "Q2 — Explain the role of distributed tracing in Java-based microservices.",
+        "Q17 — How does trace context propagate across a thread pool, a queue and an HTTP hop?",
+        "Q18 — What sampling strategies exist, and what does each one lose?",
+        "Q19 — What are exemplars, and how do they link a metric back to a trace?"
+      ]
+    },
+    {
+      "section": "D — SLOs and alerting",
+      "subtopics": [
+        "Q20 — What is the difference between an SLI, an SLO and an SLA?",
+        "Q21 — How does an error budget change what a team is allowed to ship?",
+        "Q22 — What makes an alert worth waking someone for?",
+        "Q23 — Why do dashboards full of green graphs still miss outages?"
+      ]
+    },
+    {
+      "section": "E — JVM-level tooling",
+      "subtopics": [
+        "Q6 — How does the VisualVM tool assist in thread and memory analysis for Java applications?",
+        "Q8 — Describe the role of Java Flight Recorder (JFR) and Mission Control in performance monitoring.",
+        "Q7 — What is the purpose of a thread dump? How would you generate and read one?",
+        "Q11 — What is the role of java.lang.instrument in agent-based instrumentation?",
+        "Q24 — How much overhead does instrumentation add, and how would you find out?"
+      ]
+    },
+    {
+      "section": "F — What to watch inside the JVM",
+      "subtopics": [
+        "Q9 — How do you monitor and debug thread pools in a high-concurrency Java application?",
+        "Q25 — Which JVM metrics belong on every service dashboard, and which are noise?",
+        "Q26 — How do you tell a JVM problem from a downstream problem using metrics alone?"
+      ]
+    }
+  ]
+}

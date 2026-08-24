@@ -1,0 +1,41 @@
+{
+  "id": "34",
+  "topic": "Modern Architecture",
+  "sections": [
+    {
+      "section": "A — Runtimes and frameworks",
+      "subtopics": [
+        "A1 — Spring Boot vs Micronaut vs Quarkus",
+        "A2 — Compile-time DI vs runtime reflection",
+        "A3 — Startup time and memory footprint as a design constraint",
+        "A4 — Serverless Java — and the cold-start problem",
+        "A5 — When the framework choice actually matters"
+      ]
+    },
+    {
+      "section": "B — Deciding the topology",
+      "subtopics": [
+        "B1 — Monolith vs microservices — the honest trade-off",
+        "B2 — The distributed monolith — how you end up with one",
+        "B3 — Service granularity — too many, too few"
+      ]
+    },
+    {
+      "section": "C — Getting from here to there",
+      "subtopics": [
+        "C1 — Strangler fig — migrating without a rewrite",
+        "C2 — Splitting a database along a service boundary",
+        "C3 — Who owns which data, and who may read it",
+        "C4 — A shared library across services — the coupling nobody sees"
+      ]
+    },
+    {
+      "section": "D — How services talk",
+      "subtopics": [
+        "D1 — Synchronous vs event-driven — choosing per interaction",
+        "D2 — Service discovery and the API gateway",
+        "D3 — Backend-for-frontend"
+      ]
+    }
+  ]
+}

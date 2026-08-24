@@ -1,5 +1,5 @@
 {
-  "id": "24",
+  "id": "31",
   "topic": "CI/CD",
   "sections": [
     {
@@ -35,7 +35,7 @@
       "section": "D — Artifacts and packaging",
       "subtopics": [
         "D1 — Artifact repositories — Nexus and Artifactory",
-        "D2 — Docker builds — layers, caching, multi-stage",
+        "D2 — Building images in CI — cache reuse between runs",
         "D3 — Image tagging and immutability",
         "D4 — SBOM and build provenance"
       ]
@@ -47,7 +47,7 @@
         "E2 — Blue-green",
         "E3 — Canary and progressive delivery",
         "E4 — Feature flags — decoupling deploy from release",
-        "E5 — Database migrations — Flyway, Liquibase and backward compatibility",
+        "E5 — Database migrations as a pipeline stage",
         "E6 — Rollback — what makes it actually possible"
       ]
     },

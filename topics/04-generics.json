@@ -1,0 +1,38 @@
+{
+  "id": "04",
+  "topic": "Generics",
+  "sections": [
+    {
+      "section": "A — The core model",
+      "subtopics": [
+        "A1 — Type erasure",
+        "A2 — What erasure costs at runtime — no instanceof, no new T[]",
+        "A3 — Raw types — why they are banned",
+        "A4 — Why generics don't work with primitives",
+        "A5 — Type inference and the diamond",
+        "A6 — Target typing, and inference with lambdas"
+      ]
+    },
+    {
+      "section": "B — Variance and bounds",
+      "subtopics": [
+        "B1 — Wildcards and PECS",
+        "B2 — Bounded type parameters and generic methods",
+        "B3 — Multiple bounds and intersection types",
+        "B4 — Arrays vs generics — the covariance mismatch",
+        "B5 — Recursive generics — T extends Comparable<T>",
+        "B6 — Wildcard capture and the capture helper"
+      ]
+    },
+    {
+      "section": "C — Generics at the edges",
+      "subtopics": [
+        "C1 — Heap pollution and @SafeVarargs",
+        "C2 — Creating a generic array — the workarounds and what each costs",
+        "C3 — Class<T> as a type token",
+        "C4 — Super type tokens, and how libraries fake reification",
+        "C5 — Designing a generic API — when the type parameter earns its place"
+      ]
+    }
+  ]
+}

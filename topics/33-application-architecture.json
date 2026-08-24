@@ -1,5 +1,5 @@
 {
-  "id": "35",
+  "id": "33",
   "topic": "Application Architecture",
   "sections": [
     {
@@ -54,11 +54,10 @@
       "section": "E — Structuring the codebase",
       "subtopics": [
         "E1 — Package by feature vs package by layer",
-        "E2 — Visibility as the boundary — package-private, sealed, JPMS",
-        "E3 — The modular monolith",
-        "E4 — Module boundaries in Maven and Gradle",
-        "E5 — Shared code between modules — when it couples them",
-        "E6 — Where the DTO lives, and how many of them there are"
+        "E2 — The modular monolith",
+        "E3 — Enforcing a module boundary in the build",
+        "E4 — Shared code between modules — when it couples them",
+        "E5 — Where the DTO lives, and how many of them there are"
       ]
     },
     {

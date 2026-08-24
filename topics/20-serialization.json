@@ -1,5 +1,5 @@
 {
-  "id": "32",
+  "id": "20",
   "topic": "Serialization",
   "sections": [
     {
@@ -21,7 +21,7 @@
         "B1 — ObjectMapper — configuration, reuse and thread safety",
         "B2 — How a value gets bound — fields, getters, constructors",
         "B3 — @JsonProperty, @JsonIgnore and naming strategies",
-        "B4 — Null, absent and empty — three different things",
+        "B4 — Representing null and absent — @JsonInclude, Optional, JsonNullable",
         "B5 — java.time and the JavaTimeModule",
         "B6 — Records and immutable types — the missing default constructor",
         "B7 — Polymorphic types — @JsonTypeInfo and the security problem",

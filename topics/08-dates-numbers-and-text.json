@@ -1,5 +1,5 @@
 {
-  "id": "31",
+  "id": "08",
   "topic": "Dates, Numbers & Text",
   "sections": [
     {
@@ -14,9 +14,8 @@
         "A7 — Formatting and parsing — DateTimeFormatter and ISO-8601",
         "A8 — Storing time — UTC in the database, offset at the edge",
         "A9 — Clock — making time testable",
-        "A10 — Time at the boundary — JSON, JDBC and JPA",
-        "A11 — Ranges, overlaps and half-open intervals",
-        "A12 — Leap years, leap seconds and other calendar traps"
+        "A10 — Ranges, overlaps and half-open intervals",
+        "A11 — Leap years, leap seconds and other calendar traps"
       ]
     },
     {

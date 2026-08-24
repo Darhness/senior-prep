@@ -1,5 +1,5 @@
 {
-  "id": "02",
+  "id": "11",
   "topic": "Functional Programming Design Principles",
   "sections": [
     {
@@ -57,9 +57,8 @@
         "F3 — Where FP does not pay off in Java",
         "F4 — SOLID re-read through a functional lens",
         "F5 — The cost of functional style — allocation, escape analysis, scalar replacement",
-        "F6 — Records at the framework boundary — Jackson, JPA, Spring",
-        "F7 — Vavr and persistent-collection libraries — what they buy, and the team cost",
-        "F8 — Testing pure code — property-based testing"
+        "F6 — Records at the JPA and Spring boundary",
+        "F7 — Vavr and persistent-collection libraries — what they buy, and the team cost"
       ]
     },
     {

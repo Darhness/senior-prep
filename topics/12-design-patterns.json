@@ -1,5 +1,5 @@
 {
-  "id": "03",
+  "id": "12",
   "topic": "Design Patterns",
   "sections": [
     {
@@ -22,7 +22,7 @@
       "section": "C — Structural",
       "subtopics": [
         "C1 — Adapter (and its neighbours: Bridge, Facade, Decorator)",
-        "C2 — Proxy — and how Spring uses it",
+        "C2 — Proxy",
         "C3 — Composite"
       ]
     },

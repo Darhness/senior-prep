@@ -1,5 +1,5 @@
 {
-  "id": "11",
+  "id": "13",
   "topic": "Multithreading & Concurrency",
   "sections": [
     {
@@ -19,8 +19,7 @@
         "B4 — Fair vs unfair locks",
         "B5 — ReentrantReadWriteLock",
         "B6 — StampedLock (Java 8)",
-        "B7 — Atomics and CAS",
-        "B8 — Double-checked locking and lazy initialisation"
+        "B7 — Atomics and CAS"
       ]
     },
     {
@@ -41,7 +40,6 @@
     {
       "section": "D — Coordination primitives",
       "subtopics": [
-        "Coordination primitives",
         "D1 — CountDownLatch vs CyclicBarrier",
         "D2 — Semaphore",
         "D3 — Phaser",

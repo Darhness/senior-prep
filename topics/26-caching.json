@@ -1,0 +1,66 @@
+{
+  "id": "26",
+  "topic": "Caching",
+  "sections": [
+    {
+      "section": "A — What a cache is for",
+      "subtopics": [
+        "Q11 — What problem does a cache actually solve, and what does it cost you?",
+        "Q12 — When is a cache the wrong fix for a slow system?",
+        "Q7 — How would you measure the effectiveness of a caching layer in Java?"
+      ]
+    },
+    {
+      "section": "B — Read and write strategies",
+      "subtopics": [
+        "Q13 — What is the difference between cache-aside, read-through, write-through and write-behind?",
+        "Q14 — Which write strategy can lose data, and what do you get in exchange?",
+        "Q15 — What is negative caching, and when does it matter?"
+      ]
+    },
+    {
+      "section": "C — Eviction and expiry",
+      "subtopics": [
+        "Q16 — How do LRU, LFU and FIFO eviction differ, and where does each fail?",
+        "Q17 — What does W-TinyLFU do that plain LRU does not?",
+        "Q18 — How do you choose a TTL, and what breaks when it is wrong?",
+        "Q19 — How do you size a cache, and what tells you it is too small?"
+      ]
+    },
+    {
+      "section": "D — In-JVM caching",
+      "subtopics": [
+        "Q2 — Explain how WeakHashMap can be used for caching. What are its limitations?",
+        "Q6 — Discuss how Java's SoftReferences can be used for cache implementation.",
+        "Q20 — What does Caffeine give you that a HashMap does not?"
+      ]
+    },
+    {
+      "section": "E — Distributed caching",
+      "subtopics": [
+        "Q1 — How do you integrate distributed caching solutions like Redis into a Java application?",
+        "Q8 — Explain the concept of cache sharding and its relevance in distributed systems.",
+        "Q5 — How would you handle cache invalidation in a multi-node Java application?",
+        "Q4 — What are some potential pitfalls of using caching in a distributed environment?",
+        "Q21 — Which Redis data structures matter for caching, and what does each cost?",
+        "Q22 — What happens to your application when the cache goes down?"
+      ]
+    },
+    {
+      "section": "F — Failure modes",
+      "subtopics": [
+        "Q23 — What is a cache stampede, and how do you prevent one?",
+        "Q24 — What do you do about a hot key in a sharded cache?",
+        "Q25 — Why is a cached system harder to reason about after a deploy?"
+      ]
+    },
+    {
+      "section": "G — Layering and strategy",
+      "subtopics": [
+        "Q3 — Describe caching strategies for a microservices architecture in Java.",
+        "Q10 — What are hybrid caching strategies, and how can they be implemented in Java?",
+        "Q26 — How does a near cache interact with the distributed one behind it?"
+      ]
+    }
+  ]
+}

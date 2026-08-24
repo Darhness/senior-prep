@@ -3,21 +3,21 @@
   "topic": "Newer Java Features",
   "sections": [
     {
-      "section": "A — Language syntax & readability",
+      "section": "A — Language syntax and readability",
       "subtopics": [
-        "Q3 — Explain how var improves readability without sacrificing type safety.",
-        "Q4 — How do Switch Expressions (Java 12+) simplify complex conditional logic?",
-        "Q16 — How does Pattern Matching for switch differ from a traditional switch?",
-        "Q10 — Discuss the significance of pattern matching for instanceof.",
+        "Q3 — How does var improve readability without sacrificing type safety?",
+        "Q4 — How do switch expressions (Java 12+) simplify complex conditional logic?",
+        "Q16 — How does pattern matching for switch differ from a traditional switch?",
+        "Q10 — What does pattern matching for instanceof change about a type check?",
         "Q7 — How do text blocks improve the maintainability of code with multiline strings?",
-        "Q38 — Explain the role of static methods in interfaces in modern Java."
+        "Q38 — What role do static methods in interfaces play?"
       ]
     },
     {
-      "section": "B — Data modelling & type hierarchies",
+      "section": "B — Data modeling and type hierarchies",
       "subtopics": [
-        "Q8 — Describe how the Records feature can simplify data modeling.",
-        "Q6 — Explain the purpose of sealed classes and how they enforce stricter type hierarchies."
+        "Q8 — How do records simplify data modeling?",
+        "Q6 — What do sealed classes enforce that a plain interface cannot?"
       ]
     },
     {
@@ -29,27 +29,27 @@
       ]
     },
     {
-      "section": "D — Native code & off-heap memory",
+      "section": "D — Native code and off-heap memory",
       "subtopics": [
         "Q24 — How does the Foreign Function & Memory API (Project Panama) expand Java's capabilities?",
         "Q9 — What are vector operations in Java (Project Panama), and how do they improve performance?",
-        "Q35 — What are the use cases for Direct Buffers and off-heap memory?"
+        "Q35 — What are the use cases for direct buffers and off-heap memory?"
       ]
     },
     {
-      "section": "E — Runtime & tooling",
+      "section": "E — Runtime and tooling",
       "subtopics": [
         "Q29 — How do hidden classes improve JVM performance for frameworks like Spring?",
-        "Q13 — Explain how Java's StackWalker API simplifies stack trace analysis.",
+        "Q13 — How does the StackWalker API simplify stack trace analysis?",
         "Q20 — How does Java 14 improve null pointer exception handling?",
         "Q11 — What is the purpose of jshell?"
       ]
     },
     {
-      "section": "F — Platform evolution & deprecations",
+      "section": "F — Platform evolution and deprecations",
       "subtopics": [
         "Q25 — What are the key benefits of Java 17 as an LTS version?",
-        "Q22 — Explain the motivation behind deprecating RMI and its alternatives."
+        "Q22 — Why was RMI deprecated, and what replaced it?"
       ]
     }
   ]

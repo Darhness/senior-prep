@@ -43,7 +43,7 @@
         "D1 — CountDownLatch vs CyclicBarrier",
         "D2 — Semaphore",
         "D3 — Phaser",
-        "D4 — BlockingQueue and producer–consumer",
+        "D4 — BlockingQueue and producer-consumer",
         "D5 — wait / notify — the legacy mechanism",
         "D6 — ThreadLocal",
         "D7 — ThreadLocalRandom vs Random"

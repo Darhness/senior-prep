@@ -4,7 +4,7 @@
 
 A syllabus for a **senior Java software engineer exam / interview**.
 
-`topics/` holds 30 JSON files, one per subject area. Each file is a small tree:
+`topics/` holds 36 JSON files, one per subject area. Each file is a small tree:
 
 ```
 topic  →  sections  →  subtopics
@@ -29,7 +29,9 @@ Two things follow from that:
 - **Coverage is the job.** A missing subtopic is a blind spot on interview day. When in
   doubt, add the subtopic.
 - **Order is content.** Put a subtopic after the ones you would want to understand
-  first. The reader walks the list top to bottom and does not skip.
+  first. The reader walks the list top to bottom and does not skip. The same holds for
+  the files: they are numbered in learning order, so a new topic goes where its
+  prerequisites are already met, not on the end.
 
 ## The one hard rule: names only, no content
 
@@ -70,8 +72,8 @@ Professional, but easy language. Write for a competent engineer in a hurry.
   "best practices for".
 - **No selling.** Nothing is "powerful", "modern" or "essential".
 - **American spelling** — it matches the Java API itself (`synchronized`,
-  `Serializable`). The existing files are mixed on this; normalizing them is its own
-  cleanup pass, not something to slip into an unrelated edit.
+  `Serializable`). `topics/` is fully normalized; keep it that way. `initialization`,
+  not `initialisation`; `modeling`, `behavior`, `catalog`, `authorization`.
 
 ## Naming conventions
 
@@ -81,9 +83,11 @@ Professional, but easy language. Write for a competent engineer in a hurry.
 | Section | letter, then name | `A — The four OOP pillars` |
 | Subtopic | section letter + number | `A1`, `A2`, `A3` under section `A` |
 | Question banks | `Q<n> — ` + the full question, with `?` | `Q1 — How would you debug a memory leak in production?` |
-| Filename | `NN-kebab-case-title.json` | `11-multithreading-and-concurrency.json` |
+| Conjunction | `&` in a topic title, `and` in a section name | `Memory & Garbage Collection` / `B — Collectors and tuning` |
+| Comparison | `vs`, no period | `A4 — Abstract class vs interface` |
+| Filename | `NN-kebab-case-title.json` | `13-multithreading-and-concurrency.json` |
 
-Question numbering is stable identity, not position — file 30 runs `Q1, Q8, Q7`
+Question numbering is stable identity, not position — file 28 opens with `Q5, Q1, Q12`
 because the questions were regrouped by theme. Never renumber a `Q` to tidy the order.
 
 Follow whatever the neighboring files already do. Consistency inside `topics/` beats

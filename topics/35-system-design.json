@@ -14,7 +14,7 @@
     {
       "section": "B — Estimation",
       "subtopics": [
-        "B1 — The back-of-envelope numbers worth memorising",
+        "B1 — The back-of-envelope numbers worth memorizing",
         "B2 — QPS, storage and bandwidth from a user count",
         "B3 — Read/write ratio, and why it changes everything",
         "B4 — Peak vs average, and how much headroom to buy"

@@ -15,7 +15,7 @@
       "section": "B — Exception handling",
       "subtopics": [
         "B1 — Checked vs unchecked",
-        "B2 — Best practices — the list that matters in review",
+        "B2 — The exception-handling rules that come up in review",
         "B3 — Try-with-resources and suppressed exceptions",
         "B4 — Custom exceptions",
         "B5 — assert"
@@ -25,7 +25,7 @@
       "section": "C — Class loading",
       "subtopics": [
         "C1 — The hierarchy (Java 9+ names)",
-        "C2 — Loading, linking, initialisation",
+        "C2 — Loading, linking, initialization",
         "C3 — ClassNotFoundException vs NoClassDefFoundError",
         "C4 — Custom class loader"
       ]
@@ -50,7 +50,7 @@
         "F1 — Why lazy — startup cost, memory, circular dependencies",
         "F2 — The initialization-on-demand holder idiom",
         "F3 — Double-checked locking with volatile",
-        "F4 — Supplier as a lazy value, and memoisation",
+        "F4 — Supplier as a lazy value, and memoization",
         "F5 — Lazy proxies — how Spring @Lazy and Hibernate do it",
         "F6 — When lazy backfires — hidden latency and the loading exception"
       ]

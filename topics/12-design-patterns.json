@@ -21,13 +21,13 @@
     {
       "section": "C — Structural",
       "subtopics": [
-        "C1 — Adapter (and its neighbours: Bridge, Facade, Decorator)",
+        "C1 — Adapter (and its neighbors: Bridge, Facade, Decorator)",
         "C2 — Proxy",
         "C3 — Composite"
       ]
     },
     {
-      "section": "D — Behavioural",
+      "section": "D — Behavioral",
       "subtopics": [
         "D1 — Strategy",
         "D2 — Observer",

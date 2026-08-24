@@ -35,7 +35,7 @@ from the project root `e:\Projects\senior-prep`.
 Output is a plain list, one block per file, blank line between blocks:
 
 ```
-01-oop-and-design-principles.json  —  OOP & Design Principles  [3 sections · 13 subtopics]
+01-oop-and-design-principles.json  —  OOP & Design Principles  [5 sections · 27 subtopics]
 - A — The four OOP pillars
   - A1 — Encapsulation
 ```
@@ -43,7 +43,7 @@ Output is a plain list, one block per file, blank line between blocks:
 Step 1. Decide the depth:
 - `--depth 1` — one line per file, no blank lines
 - `--depth 2` — plus section names
-- `--depth 3` — plus every subtopic (default, 969 lines)
+- `--depth 3` — plus every subtopic (default, ~1290 lines)
 
 Step 2. Run it:
 
@@ -62,18 +62,25 @@ before reporting the listing as correct.
 
 ## Procedure B — add a new topic
 
-Step 1. Pick the next free two-digit id by looking at the highest existing number:
+Step 1. Decide where the topic belongs. The files are numbered in **learning order**, so
+a new topic goes after everything it assumes — not on the end by default. List what is
+there and find the slot:
 
 ```bash
 node scripts/topic-tree.ts --depth 1 --no-counts
 ```
+
+If the slot is at the end, take the next free two-digit id and carry on. If it is in the
+middle, you are inserting: every later file shifts up, filename **and** `id` field
+together, never one without the other. Rename in two passes — everything to a temporary
+name first, then into place — because the numbers swap and a direct rename collides.
 
 Step 2. Create `topics/<id>-<kebab-case-title>.json`. The filename number **must** match
 the `id` field — sort order and identity both depend on it. Use exactly this shape:
 
 ```json
 {
-  "id": "31",
+  "id": "37",
   "topic": "Human Readable Title",
   "sections": [
     {
@@ -161,8 +168,9 @@ Step 1. Delete the `topics/NN-*.json` file.
 
 Step 2. Run `node scripts/build-index.ts`. The removed entry disappears from the index.
 
-Step 3. Leave the gap in the numbering, or renumber every later file *and* its `id`
-field together. Do not renumber a filename without its `id` — they must agree.
+Step 3. Leave the gap in the numbering, or close it by renumbering every later file
+*and* its `id` field together — in two passes (temporary names first) so that swapped
+numbers cannot collide. Do not renumber a filename without its `id` — they must agree.
 
 ## Failure modes
 

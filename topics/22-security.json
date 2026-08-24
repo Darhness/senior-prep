@@ -23,7 +23,7 @@
       "section": "C — Untrusted input",
       "subtopics": [
         "C1 — Preventing deserialization attacks",
-        "C2 — SQL injection and parameterised queries",
+        "C2 — SQL injection and parameterized queries",
         "C3 — Path traversal and file upload handling",
         "C4 — Validation as a boundary concern"
       ]

@@ -6,7 +6,7 @@
       "section": "A — Fundamentals",
       "subtopics": [
         "A1 — What an API contract actually promises",
-        "A2 — Resource modelling — nouns, not verbs",
+        "A2 — Resource modeling — nouns, not verbs",
         "A3 — The Richardson maturity model — and how much to care",
         "A4 — REST vs RPC vs GraphQL — choosing"
       ]
@@ -54,7 +54,7 @@
       "section": "F — Security",
       "subtopics": [
         "F1 — Authentication — API keys, OAuth2, mTLS",
-        "F2 — Authorisation at the resource level",
+        "F2 — Authorization at the resource level",
         "F3 — Rate limiting and quotas — and how to signal them",
         "F4 — Input validation and mass assignment",
         "F5 — CORS — what it does and does not protect"
@@ -73,7 +73,7 @@
       "section": "H — Beyond REST",
       "subtopics": [
         "H1 — gRPC — when the binary contract pays",
-        "H2 — GraphQL — the N+1 and the authorisation problem",
+        "H2 — GraphQL — the N+1 and the authorization problem",
         "H3 — Webhooks — delivery, retries and signing",
         "H4 — Long-running operations — async APIs and polling",
         "H5 — Streaming — SSE and WebSockets"

@@ -3,7 +3,7 @@
   "topic": "OOP & Design Principles",
   "sections": [
     {
-      "section": "A — The four OOP pillars",
+      "section": "A — The OOP pillars",
       "subtopics": [
         "A1 — Encapsulation",
         "A2 — Inheritance",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "section": "B — Overloading vs. overriding",
+      "section": "B — Overloading vs overriding",
       "subtopics": [
         "B1 — Overloading rules",
         "B2 — Overriding rules",
@@ -41,7 +41,7 @@
         "D2 — The fragile base class problem",
         "D3 — Delegation, and what you give up (no subtype relationship)",
         "D4 — Abstract class vs interface — the actual decision",
-        "D5 — Default methods and multiple inheritance of behaviour"
+        "D5 — Default methods and multiple inheritance of behavior"
       ]
     },
     {

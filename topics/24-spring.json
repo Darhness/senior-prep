@@ -22,7 +22,7 @@
         "B2 — @Value, Environment and property resolution order",
         "B3 — @ConfigurationProperties and type-safe config",
         "B4 — Profiles and conditional beans",
-        "B5 — Externalised configuration and the 12-factor rules"
+        "B5 — Externalized configuration and the 12-factor rules"
       ]
     },
     {
@@ -54,7 +54,7 @@
         "E3 — @SpringBootApplication unpacked",
         "E4 — Actuator — health, metrics, info",
         "E5 — Writing your own auto-configuration",
-        "E6 — Startup time and lazy initialisation"
+        "E6 — Startup time and lazy initialization"
       ]
     },
     {
@@ -73,7 +73,7 @@
       "section": "G — Security",
       "subtopics": [
         "G1 — The filter chain",
-        "G2 — Authentication vs authorisation",
+        "G2 — Authentication vs authorization",
         "G3 — Method security with @PreAuthorize",
         "G4 — JWT and stateless sessions",
         "G5 — OAuth2 and OIDC in Spring",

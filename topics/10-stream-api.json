@@ -6,7 +6,7 @@
       "section": "A — Fundamentals",
       "subtopics": [
         "A1 — What a stream is (and is not)",
-        "A2 — The operation catalogue",
+        "A2 — The operation catalog",
         "A3 — Laziness and short-circuiting",
         "A4 — Stream sources — collections, arrays, generators",
         "A5 — Infinite streams"

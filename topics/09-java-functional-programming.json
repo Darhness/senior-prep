@@ -16,7 +16,7 @@
       "subtopics": [
         "B1 — Built-in functional interfaces",
         "B2 — @FunctionalInterface and writing your own",
-        "B3 — Primitive specialisations — IntFunction and friends",
+        "B3 — Primitive specializations — IntFunction and friends",
         "B4 — Composing functions — andThen, compose, negate",
         "B5 — Comparator — comparing, thenComparing, reversed"
       ]

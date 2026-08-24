@@ -18,18 +18,18 @@
     {
       "section": "C — Designing distributed systems",
       "subtopics": [
-        "Q2 — Describe how to design a Java application that processes real-time data streams.",
-        "Q4 — Explain how you would design a distributed job scheduling system using Java.",
+        "Q2 — How would you design a Java application that processes real-time data streams?",
+        "Q4 — How would you design a distributed job scheduling system in Java?",
         "Q10 — How do you design a system to efficiently handle billions of small files in Java?"
       ]
     },
     {
-      "section": "D — Resilience & resource management",
+      "section": "D — Resilience and resource management",
       "subtopics": [
         "Q3 — How would you handle database connection pooling in a high-concurrency environment?",
         "Q5 — How do you ensure graceful shutdown of services in a distributed Java application?",
         "Q6 — What steps would you take to implement retry logic for failed HTTP requests?",
-        "Q9 — Describe how to implement a Java-based solution for rate limiting in a distributed system."
+        "Q9 — How would you implement rate limiting in a distributed system in Java?"
       ]
     }
   ]

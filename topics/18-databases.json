@@ -5,7 +5,7 @@
     {
       "section": "A — Relational fundamentals",
       "subtopics": [
-        "A1 — Normalisation, and when to denormalise",
+        "A1 — Normalization, and when to denormalize",
         "A2 — Keys — primary, foreign, natural vs surrogate",
         "A3 — Constraints — where to enforce an invariant",
         "A4 — Schema design for a domain model"

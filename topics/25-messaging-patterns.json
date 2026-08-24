@@ -55,12 +55,12 @@
       ]
     },
     {
-      "section": "F — Event modelling",
+      "section": "F — Event modeling",
       "subtopics": [
         "F1 — Event notification vs event-carried state transfer",
         "F2 — Commands vs events vs documents",
         "F3 — Event granularity and naming",
-        "F4 — Serialisation — Avro, Protobuf, JSON Schema",
+        "F4 — Serialization — Avro, Protobuf, JSON Schema",
         "F5 — Schema registry and compatibility modes",
         "F6 — Versioning an event without breaking consumers"
       ]

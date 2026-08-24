@@ -3,7 +3,7 @@
   "topic": "Memory & Garbage Collection",
   "sections": [
     {
-      "section": "A — JVM memory model foundations",
+      "section": "A — Heap structure and generations",
       "subtopics": [
         "A1 — Generational collection and the weak generational hypothesis",
         "A2 — Eden, the survivor spaces and tenuring",
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "section": "B — Collectors & tuning",
+      "section": "B — Collectors and tuning",
       "subtopics": [
         "B1 — The collectors — Serial, Parallel, CMS, G1, ZGC, Shenandoah",
         "B2 — Where a GC pause costs you, and how to shorten it",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "section": "C — Diagnostics & monitoring",
+      "section": "C — Diagnostics and monitoring",
       "subtopics": [
         "C1 — The GC logging flags worth setting in production",
         "C2 — Unified vs classic GC log format",

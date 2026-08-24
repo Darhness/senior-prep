@@ -15,7 +15,7 @@
       "subtopics": [
         "B1 — JUnit 5",
         "B2 — JUnit 5 extensions (the TestWatcher question)",
-        "B3 — Parameterised tests",
+        "B3 — Parameterized tests",
         "B4 — Mockito — and when not to mock",
         "B5 — Testing private methods",
         "B6 — AssertJ and readable assertions",

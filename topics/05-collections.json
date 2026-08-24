@@ -5,7 +5,7 @@
     {
       "section": "A — The framework",
       "subtopics": [
-        "A1 — The map of the territory",
+        "A1 — The collection interfaces — List, Set, Map, Queue, Deque",
         "A2 — Choosing the right collection"
       ]
     },
@@ -13,9 +13,9 @@
       "section": "B — Maps",
       "subtopics": [
         "B1 — HashMap — how it actually works",
-        "B2 — LinkedHashMap — free LRU cache",
+        "B2 — LinkedHashMap — access order and an LRU cache",
         "B3 — TreeMap and sorted maps",
-        "B4 — EnumMap — the free win",
+        "B4 — EnumMap — when the key is an enum",
         "B5 — IdentityHashMap and WeakHashMap"
       ]
     },
@@ -33,7 +33,7 @@
       "subtopics": [
         "D1 — ConcurrentHashMap vs HashMap vs Hashtable",
         "D2 — CopyOnWriteArrayList — when the copy pays",
-        "D3 — The concurrent collection catalogue"
+        "D3 — The concurrent collection catalog"
       ]
     }
   ]

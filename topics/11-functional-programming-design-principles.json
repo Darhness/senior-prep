@@ -24,7 +24,7 @@
       ]
     },
     {
-      "section": "C — Modelling data and state",
+      "section": "C — Modeling data and state",
       "subtopics": [
         "C1 — Persistent data structures vs defensive copying",
         "C2 — Records as product types",
@@ -36,7 +36,7 @@
       "section": "D — Errors and absence",
       "subtopics": [
         "D1 — Optional as a design choice, not a null wrapper",
-        "D2 — Either / Result — modelling failure as a value",
+        "D2 — Either / Result — modeling failure as a value",
         "D3 — Exceptions vs functional error handling in Java",
         "D4 — Accumulating errors vs short-circuiting — validation that reports all of them"
       ]
@@ -46,7 +46,7 @@
       "subtopics": [
         "E1 — Eager vs lazy evaluation",
         "E2 — Supplier as deferred computation",
-        "E3 — Memoisation"
+        "E3 — Memoization"
       ]
     },
     {
@@ -65,7 +65,7 @@
       "section": "G — Recursion and the JVM",
       "subtopics": [
         "G1 — Recursion vs iteration — when recursion is the clearer model",
-        "G2 — Why the JVM has no tail-call optimisation",
+        "G2 — Why the JVM has no tail-call optimization",
         "G3 — StackOverflowError — stack depth and -Xss",
         "G4 — Trampolining and explicit stacks",
         "G5 — Structural recursion over sealed hierarchies"

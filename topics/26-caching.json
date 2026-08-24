@@ -30,8 +30,8 @@
     {
       "section": "D — In-JVM caching",
       "subtopics": [
-        "Q2 — Explain how WeakHashMap can be used for caching. What are its limitations?",
-        "Q6 — Discuss how Java's SoftReferences can be used for cache implementation.",
+        "Q2 — How can WeakHashMap back a cache, and what are its limitations?",
+        "Q6 — How can SoftReferences back a cache, and what does the GC decide for you?",
         "Q20 — What does Caffeine give you that a HashMap does not?"
       ]
     },
@@ -39,7 +39,7 @@
       "section": "E — Distributed caching",
       "subtopics": [
         "Q1 — How do you integrate distributed caching solutions like Redis into a Java application?",
-        "Q8 — Explain the concept of cache sharding and its relevance in distributed systems.",
+        "Q8 — What is cache sharding, and when does it become necessary?",
         "Q5 — How would you handle cache invalidation in a multi-node Java application?",
         "Q4 — What are some potential pitfalls of using caching in a distributed environment?",
         "Q21 — Which Redis data structures matter for caching, and what does each cost?",
@@ -57,7 +57,7 @@
     {
       "section": "G — Layering and strategy",
       "subtopics": [
-        "Q3 — Describe caching strategies for a microservices architecture in Java.",
+        "Q3 — Which caching strategies fit a microservices architecture?",
         "Q10 — What are hybrid caching strategies, and how can they be implemented in Java?",
         "Q26 — How does a near cache interact with the distributed one behind it?"
       ]

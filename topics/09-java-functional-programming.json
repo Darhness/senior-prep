@@ -34,7 +34,10 @@
       "section": "D — Functional style in practice",
       "subtopics": [
         "D1 — Checked exceptions inside lambdas",
-        "D2 — Higher-order methods in your own APIs"
+        "D2 — Higher-order methods in your own APIs",
+        "D3 — Function.identity() and the small combinators",
+        "D4 — Debugging a lambda — what the stack trace shows",
+        "D5 — Lambda vs method reference — when each reads better"
       ]
     }
   ]

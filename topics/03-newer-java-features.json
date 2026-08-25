@@ -10,7 +10,9 @@
         "Q16 — How does pattern matching for switch differ from a traditional switch?",
         "Q10 — What does pattern matching for instanceof change about a type check?",
         "Q7 — How do text blocks improve the maintainability of code with multiline strings?",
-        "Q38 — What role do static methods in interfaces play?"
+        "Q38 — What role do static methods in interfaces play?",
+        "Q41 — What are record patterns, and how do they compose with switch?",
+        "Q42 — What do sequenced collections add to List, Set and Map?"
       ]
     },
     {
@@ -49,7 +51,8 @@
       "section": "F — Platform evolution and deprecations",
       "subtopics": [
         "Q25 — What are the key benefits of Java 17 as an LTS version?",
-        "Q22 — Why was RMI deprecated, and what replaced it?"
+        "Q22 — Why was RMI deprecated, and what replaced it?",
+        "Q43 — What changed between Java 17 and Java 21 as LTS releases?"
       ]
     }
   ]

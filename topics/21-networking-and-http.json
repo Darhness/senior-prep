@@ -44,7 +44,7 @@
       "section": "E — HTTP clients in Java",
       "subtopics": [
         "E1 — The field — HttpURLConnection, Apache HttpClient, OkHttp, java.net.http",
-        "E2 — Connection pooling — sizing, eviction, reuse",
+        "E2 — HTTP connection pooling — sizing, eviction, reuse",
         "E3 — Timeouts — connect, read, write, and the total that nobody sets",
         "E4 — Which requests are safe to retry",
         "E5 — Proxies, redirects and cookies",

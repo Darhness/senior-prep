@@ -12,24 +12,19 @@
       "section": "B — Diagnosing production problems",
       "subtopics": [
         "Q1 — How would you debug a memory leak in a Java web application running in production?",
-        "Q8 — How do you diagnose and resolve deadlocks in multithreaded applications?"
+        "Q8 — How do you diagnose and resolve deadlocks in multithreaded applications?",
+        "Q12 — Latency doubled after a deploy that changed no code. How do you find out why?",
+        "Q13 — One instance out of ten is unhealthy. How do you decide whether to restart it or debug it?"
       ]
     },
     {
-      "section": "C — Designing distributed systems",
-      "subtopics": [
-        "Q2 — How would you design a Java application that processes real-time data streams?",
-        "Q4 — How would you design a distributed job scheduling system in Java?",
-        "Q10 — How do you design a system to efficiently handle billions of small files in Java?"
-      ]
-    },
-    {
-      "section": "D — Resilience and resource management",
+      "section": "C — Resilience and resource management",
       "subtopics": [
         "Q3 — How would you handle database connection pooling in a high-concurrency environment?",
         "Q5 — How do you ensure graceful shutdown of services in a distributed Java application?",
         "Q6 — What steps would you take to implement retry logic for failed HTTP requests?",
-        "Q9 — How would you implement rate limiting in a distributed system in Java?"
+        "Q14 — A downstream dependency starts timing out. What should your service do, and what should it not do?",
+        "Q15 — Traffic arrives at five times the forecast. What gives first, and what do you shed?"
       ]
     }
   ]

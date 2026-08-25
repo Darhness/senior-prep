@@ -43,7 +43,7 @@ Output is a plain list, one block per file, blank line between blocks:
 Step 1. Decide the depth:
 - `--depth 1` — one line per file, no blank lines
 - `--depth 2` — plus section names
-- `--depth 3` — plus every subtopic (default, ~1290 lines)
+- `--depth 3` — plus every subtopic (default, ~1370 lines)
 
 Step 2. Run it:
 

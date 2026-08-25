@@ -8,7 +8,8 @@
         "A1 — Password hashing — bcrypt, scrypt, Argon2",
         "A2 — Hashing vs encryption vs encoding",
         "A3 — Symmetric vs asymmetric — what to use when",
-        "A4 — SecureRandom and where randomness leaks"
+        "A4 — SecureRandom and where randomness leaks",
+        "A5 — Encryption at rest vs in transit — what each one protects"
       ]
     },
     {
@@ -16,7 +17,8 @@
       "subtopics": [
         "B1 — Keystores and secrets",
         "B2 — Secret rotation, and where secrets must never live",
-        "B3 — TLS in Java — truststores and certificate pinning"
+        "B3 — TLS in Java — truststores and certificate pinning",
+        "B4 — Envelope encryption and a key management service"
       ]
     },
     {
@@ -25,7 +27,8 @@
         "C1 — Preventing deserialization attacks",
         "C2 — SQL injection and parameterized queries",
         "C3 — Path traversal and file upload handling",
-        "C4 — Validation as a boundary concern"
+        "C4 — Validation as a boundary concern",
+        "C5 — SSRF — when your own server makes the request"
       ]
     },
     {
@@ -37,11 +40,30 @@
       ]
     },
     {
-      "section": "E — Supply chain and platform",
+      "section": "E — Authentication and authorization",
       "subtopics": [
-        "E1 — Dependency vulnerabilities and SCA scanning",
-        "E2 — JEP 411 — life after the Security Manager",
-        "E3 — Logging safely — what never goes in a log"
+        "E1 — RBAC vs ABAC — and where each stops scaling",
+        "E2 — Insecure direct object references",
+        "E3 — Session management — cookie flags, fixation, timeout",
+        "E4 — JWT pitfalls — alg=none, expiry, revocation"
+      ]
+    },
+    {
+      "section": "F — Handling personal data",
+      "subtopics": [
+        "F1 — Classifying PII, and knowing where it lives",
+        "F2 — GDPR obligations that reach the code — export, deletion, consent",
+        "F3 — Data retention and deletion — the policy the code has to implement"
+      ]
+    },
+    {
+      "section": "G — Supply chain and secure practice",
+      "subtopics": [
+        "G1 — Dependency vulnerabilities and SCA scanning",
+        "G2 — JEP 411 — life after the Security Manager",
+        "G3 — Threat modeling — STRIDE without the ceremony",
+        "G4 — What a security review actually looks for",
+        "G5 — Secure defaults, and failing closed"
       ]
     }
   ]

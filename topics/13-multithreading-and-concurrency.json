@@ -19,7 +19,8 @@
         "B4 — Fair vs unfair locks",
         "B5 — ReentrantReadWriteLock",
         "B6 — StampedLock (Java 8)",
-        "B7 — Atomics and CAS"
+        "B7 — Atomics and CAS",
+        "B8 — False sharing and @Contended"
       ]
     },
     {
@@ -29,56 +30,68 @@
         "C2 — Daemon threads vs user threads",
         "C3 — Thread priorities — and why they rarely help",
         "C4 — ExecutorService and thread pool sizing",
-        "C5 — Custom thread pools — ThreadFactory and rejection policies",
-        "C6 — ScheduledExecutorService",
-        "C7 — ForkJoinPool and work stealing",
-        "C8 — CompletableFuture",
-        "C9 — Virtual threads (Java 21)",
-        "C10 — Structured concurrency — StructuredTaskScope (still preview in Java 25)"
+        "C5 — The queue decides the pool — why maxPoolSize often never applies",
+        "C6 — Custom thread pools — ThreadFactory and rejection policies",
+        "C7 — ScheduledExecutorService",
+        "C8 — ForkJoinPool and work stealing",
+        "C9 — CompletableFuture",
+        "C10 — Virtual threads (Java 21)",
+        "C11 — Virtual thread pinning — what still blocks a carrier thread",
+        "C12 — Structured concurrency — StructuredTaskScope (still preview in Java 25)"
       ]
     },
     {
-      "section": "D — Coordination primitives",
+      "section": "D — Interruption and cancellation",
       "subtopics": [
-        "D1 — CountDownLatch vs CyclicBarrier",
-        "D2 — Semaphore",
-        "D3 — Phaser",
-        "D4 — BlockingQueue and producer-consumer",
-        "D5 — wait / notify — the legacy mechanism",
-        "D6 — ThreadLocal",
-        "D7 — ThreadLocalRandom vs Random"
+        "D1 — The interrupt flag and InterruptedException",
+        "D2 — Interruption policy — who owns the thread",
+        "D3 — Cancelling work — Future.cancel and what it cannot stop",
+        "D4 — Shutting down a pool — shutdown, shutdownNow, awaitTermination",
+        "D5 — Timeouts that actually stop the work"
       ]
     },
     {
-      "section": "E — Deadlock, livelock, starvation",
+      "section": "E — Coordination primitives",
       "subtopics": [
-        "E1 — The four Coffman conditions",
-        "E2 — Prevention, in order of preference",
-        "E3 — Detection during an incident",
-        "E4 — Livelock and starvation"
+        "E1 — CountDownLatch vs CyclicBarrier",
+        "E2 — Semaphore",
+        "E3 — Phaser",
+        "E4 — BlockingQueue and producer-consumer",
+        "E5 — wait / notify — the legacy mechanism",
+        "E6 — ThreadLocal",
+        "E7 — ThreadLocalRandom vs Random"
       ]
     },
     {
-      "section": "F — Asynchronous and reactive",
+      "section": "F — Deadlock, livelock, starvation",
       "subtopics": [
-        "F1 — Composing CompletableFutures — allOf, anyOf, exception handling",
-        "F2 — Reactive Streams — Reactor and RxJava",
-        "F3 — Back-pressure in a high-throughput system",
-        "F4 — The Actor model — Akka"
+        "F1 — The four Coffman conditions",
+        "F2 — Prevention, in order of preference",
+        "F3 — Detection during an incident",
+        "F4 — Livelock and starvation"
       ]
     },
     {
-      "section": "G — Applied patterns",
+      "section": "G — Asynchronous and reactive",
       "subtopics": [
-        "G1 — Retry with exponential backoff",
-        "G2 — Rate limiting — Semaphore and ScheduledExecutorService"
+        "G1 — Composing CompletableFutures — allOf, anyOf, exception handling",
+        "G2 — Reactive Streams — Reactor and RxJava",
+        "G3 — Back-pressure in a high-throughput system",
+        "G4 — The Actor model — Akka"
       ]
     },
     {
-      "section": "H — Concurrency design",
+      "section": "H — Applied patterns",
       "subtopics": [
-        "H1 — Concurrency design checklist",
-        "H2 — Designing a thread-safe data structure from scratch"
+        "H1 — Retry with exponential backoff",
+        "H2 — Rate limiting — Semaphore and ScheduledExecutorService"
+      ]
+    },
+    {
+      "section": "I — Concurrency design",
+      "subtopics": [
+        "I1 — Concurrency design checklist",
+        "I2 — Designing a thread-safe data structure from scratch"
       ]
     }
   ]

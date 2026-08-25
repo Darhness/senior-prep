@@ -75,7 +75,9 @@
         "G5 — Distributed job scheduler",
         "G6 — Notification and fan-out service",
         "G7 — File storage and sharing",
-        "G8 — Ticket booking — the contention problem"
+        "G8 — Ticket booking — the contention problem",
+        "G9 — Real-time stream processing pipeline",
+        "G10 — Storing billions of small files"
       ]
     },
     {

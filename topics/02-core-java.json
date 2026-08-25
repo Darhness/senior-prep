@@ -7,8 +7,12 @@
       "subtopics": [
         "A1 — Primitive types — the table, corrected",
         "A2 — Autoboxing, the Integer cache and == on boxed types",
-        "A3 — clone, Cloneable and copy constructors",
-        "A4 — Release map (JDK 8 → 25)"
+        "A3 — final on a class, method and field",
+        "A4 — varargs, and how it interacts with overloading",
+        "A5 — Static and instance initializer blocks, and their order",
+        "A6 — clone, Cloneable and copy constructors",
+        "A7 — Shutdown hooks — Runtime.addShutdownHook and its limits",
+        "A8 — Release map (JDK 8 → 25)"
       ]
     },
     {
@@ -41,7 +45,14 @@
     {
       "section": "E — I/O",
       "subtopics": [
-        "E1 — java.nio and file I/O performance"
+        "E1 — Streams vs readers — bytes vs characters",
+        "E2 — Buffering, and what happens without it",
+        "E3 — Files and Path — the java.nio.file API",
+        "E4 — Walking a directory tree",
+        "E5 — Channels and ByteBuffer",
+        "E6 — Memory-mapped files",
+        "E7 — Temp files, atomic moves and file locking",
+        "E8 — java.nio and file I/O performance"
       ]
     },
     {

@@ -7,7 +7,9 @@
       "subtopics": [
         "A1 — The testing pyramid, and what to say about it",
         "A2 — What to test and what not to",
-        "A3 — Test doubles — stub, mock, fake, spy"
+        "A3 — Test doubles — stub, mock, fake, spy",
+        "A4 — TDD — the loop, and where it does not fit",
+        "A5 — Naming a test so the failure reads well"
       ]
     },
     {
@@ -19,7 +21,10 @@
         "B4 — Mockito — and when not to mock",
         "B5 — Testing private methods",
         "B6 — AssertJ and readable assertions",
-        "B7 — Property-based testing with jqwik"
+        "B7 — Property-based testing with jqwik",
+        "B8 — Lifecycle and structure — @Nested, @BeforeEach, @TestInstance",
+        "B9 — Asserting on exceptions",
+        "B10 — Test data builders and object mothers"
       ]
     },
     {
@@ -28,14 +33,17 @@
         "C1 — Integration testing with Testcontainers",
         "C2 — Contract testing between services",
         "C3 — Testing concurrent code",
-        "C4 — Flaky tests — causes and fixes"
+        "C4 — Flaky tests — causes and fixes",
+        "C5 — Stubbing HTTP with WireMock",
+        "C6 — A real database vs an in-memory one"
       ]
     },
     {
       "section": "D — Debugging and measurement",
       "subtopics": [
         "D1 — Debugging a failing test",
-        "D2 — Coverage — what the number does and does not mean"
+        "D2 — Coverage — what the number does and does not mean",
+        "D3 — Mutation testing — what coverage cannot tell you"
       ]
     }
   ]

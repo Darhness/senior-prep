@@ -12,7 +12,8 @@
         "A5 — Bean lifecycle and callbacks",
         "A6 — @Component vs @Bean vs @Configuration",
         "A7 — Qualifiers, @Primary and resolving ambiguity",
-        "A8 — Circular dependencies — why they happen and how to break them"
+        "A8 — Circular dependencies — why they happen and how to break them",
+        "A9 — BeanPostProcessor and BeanFactoryPostProcessor — the extension points"
       ]
     },
     {
@@ -54,7 +55,8 @@
         "E3 — @SpringBootApplication unpacked",
         "E4 — Actuator — health, metrics, info",
         "E5 — Writing your own auto-configuration",
-        "E6 — Startup time and lazy initialization"
+        "E6 — Startup time and lazy initialization",
+        "E7 — Spring Boot 3 — the Jakarta namespace migration"
       ]
     },
     {
@@ -95,8 +97,9 @@
         "I1 — Caching with @Cacheable",
         "I2 — @Async and scheduling",
         "I3 — Observability — Micrometer and tracing",
-        "I4 — Graceful shutdown",
-        "I5 — Spring on Kubernetes and native images"
+        "I4 — Graceful shutdown — the Spring lifecycle",
+        "I5 — Spring on Kubernetes and native images",
+        "I6 — Application events and @EventListener"
       ]
     }
   ]

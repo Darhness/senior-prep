@@ -8,7 +8,11 @@
         "A1 — Normalization, and when to denormalize",
         "A2 — Keys — primary, foreign, natural vs surrogate",
         "A3 — Constraints — where to enforce an invariant",
-        "A4 — Schema design for a domain model"
+        "A4 — Schema design for a domain model",
+        "A5 — GROUP BY, HAVING and the aggregate rules",
+        "A6 — Window functions and CTEs",
+        "A7 — Upsert — ON CONFLICT and MERGE",
+        "A8 — JSON columns — when the schema goes soft"
       ]
     },
     {
@@ -40,7 +44,8 @@
         "D3 — MVCC — how PostgreSQL and MySQL differ",
         "D4 — Pessimistic vs optimistic locking",
         "D5 — Deadlocks — causes and detection",
-        "D6 — Long transactions and connection hogging"
+        "D6 — Long transactions and connection hogging",
+        "D7 — SELECT FOR UPDATE and SKIP LOCKED — a queue in a table"
       ]
     },
     {

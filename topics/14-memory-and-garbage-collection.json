@@ -5,9 +5,17 @@
     {
       "section": "A — Heap structure and generations",
       "subtopics": [
-        "A1 — Generational collection and the weak generational hypothesis",
-        "A2 — Eden, the survivor spaces and tenuring",
-        "A3 — Class unloading, and what it means for a long-running process"
+        "A1 — Stack vs heap — what lives where",
+        "A2 — The runtime data areas — heap, stacks, metaspace, code cache",
+        "A3 — Object layout — header, fields, padding, and what an object costs",
+        "A4 — TLABs, and why allocation is cheap",
+        "A5 — Generational collection and the weak generational hypothesis",
+        "A6 — Eden, the survivor spaces and tenuring",
+        "A7 — Humongous objects and large allocations",
+        "A8 — Phantom references, ReferenceQueue and Cleaner",
+        "A9 — Sizing the heap — -Xms, -Xmx, and why they are often equal",
+        "A10 — The OutOfMemoryError flavors — heap, metaspace, direct buffer, thread",
+        "A11 — Class unloading, and what it means for a long-running process"
       ]
     },
     {

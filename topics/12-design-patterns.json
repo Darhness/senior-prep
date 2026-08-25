@@ -23,7 +23,8 @@
       "subtopics": [
         "C1 — Adapter (and its neighbors: Bridge, Facade, Decorator)",
         "C2 — Proxy",
-        "C3 — Composite"
+        "C3 — Composite",
+        "C4 — Flyweight"
       ]
     },
     {
@@ -34,7 +35,9 @@
         "D3 — Chain of Responsibility",
         "D4 — Template Method",
         "D5 — Command",
-        "D6 — State vs Strategy"
+        "D6 — State vs Strategy",
+        "D7 — Visitor — double dispatch, and when a sealed type replaces it",
+        "D8 — Iterator, Mediator and Memento"
       ]
     },
     {

@@ -6,7 +6,12 @@
       "section": "A — The framework",
       "subtopics": [
         "A1 — The collection interfaces — List, Set, Map, Queue, Deque",
-        "A2 — Choosing the right collection"
+        "A2 — Choosing the right collection",
+        "A3 — Sizing — initial capacity, load factor and resizing",
+        "A4 — Iterator and Iterable — writing your own",
+        "A5 — Spliterator — how a collection feeds a stream",
+        "A6 — Collections and Arrays — the utility methods worth knowing",
+        "A7 — Ordering vs equality in sorted collections"
       ]
     },
     {
@@ -16,7 +21,8 @@
         "B2 — LinkedHashMap — access order and an LRU cache",
         "B3 — TreeMap and sorted maps",
         "B4 — EnumMap — when the key is an enum",
-        "B5 — IdentityHashMap and WeakHashMap"
+        "B5 — IdentityHashMap and WeakHashMap",
+        "B6 — NavigableMap — floor, ceiling, headMap, tailMap"
       ]
     },
     {
@@ -25,7 +31,9 @@
         "C1 — ArrayList vs LinkedList",
         "C2 — HashSet vs LinkedHashSet vs TreeSet",
         "C3 — EnumSet",
-        "C4 — ArrayDeque, PriorityQueue and BlockingQueue"
+        "C4 — ArrayDeque, PriorityQueue and BlockingQueue",
+        "C5 — Views that surprise you — Arrays.asList and subList",
+        "C6 — Set operations — retainAll, removeAll, and their cost"
       ]
     },
     {

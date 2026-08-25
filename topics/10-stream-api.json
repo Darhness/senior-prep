@@ -17,8 +17,9 @@
       "subtopics": [
         "B1 — map vs flatMap",
         "B2 — filter, distinct, sorted, limit, skip",
-        "B3 — peek — and why it is a trap",
-        "B4 — mapMulti and stream gatherers (final in Java 24)"
+        "B3 — takeWhile and dropWhile",
+        "B4 — peek — and why it is a trap",
+        "B5 — mapMulti and stream gatherers (final in Java 24)"
       ]
     },
     {
@@ -45,7 +46,8 @@
       "subtopics": [
         "E1 — Debugging streams",
         "E2 — When not to use a stream",
-        "E3 — Streams vs loops — the performance question"
+        "E3 — Streams vs loops — the performance question",
+        "E4 — Reusing a stream — why the second terminal operation fails"
       ]
     }
   ]

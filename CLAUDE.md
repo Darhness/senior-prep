@@ -16,13 +16,17 @@ sense to learn in.
 
 ## How the files get used
 
-The JSONs are pasted into a Claude chat later, one at a time, and worked through
-interactively:
+The syllabus is taught back in a session on this repo — usually driven from a
+phone, sharing into this machine — one subtopic at a time:
 
 1. Claude takes the next subtopic.
 2. Claude explains it.
 3. The learner asks follow-up questions until it clicks.
 4. On to the next subtopic.
+
+That session reads the topic files off disk and writes the resume point to
+`save.json`. Teaching and maintenance are the same session wearing two hats:
+this file governs the repo, `project-instructions.md` governs the teaching.
 
 Two things follow from that:
 
@@ -80,7 +84,7 @@ Professional, but easy language. Write for a competent engineer in a hurry.
 | Thing | Shape | Example |
 | --- | --- | --- |
 | Separator | spaced em dash ` — ` | `A1 — Encapsulation` |
-| Section | letter, then name | `A — The four OOP pillars` |
+| Section | letter, then name | `A — The OOP pillars` |
 | Subtopic | section letter + number | `A1`, `A2`, `A3` under section `A` |
 | Question banks | `Q<n> — ` + the full question, with `?` | `Q1 — How would you debug a memory leak in production?` |
 | Conjunction | `&` in a topic title, `and` in a section name | `Memory & Garbage Collection` / `B — Collectors and tuning` |
@@ -101,7 +105,7 @@ this table.
   "topic": "OOP & Design Principles",
   "sections": [
     {
-      "section": "A — The four OOP pillars",
+      "section": "A — The OOP pillars",
       "subtopics": ["A1 — Encapsulation", "A2 — Inheritance"]
     }
   ]
@@ -128,12 +132,22 @@ any change to an `id`, a `topic` title, or a filename.
 
 ## Skills
 
+Maintaining the repo:
+
 | Skill | Use it for |
 | --- | --- |
 | **`topics`** (project skill, `.claude/skills/topics/`) | **Anything touching `topics/`** — listing, adding, renaming, reordering, deleting, fixing a stale index. It has the step-by-step procedures and the failure-mode table. Load it before editing, not after something breaks. |
 | `init` | Regenerating this file. |
 | `update-config` | Permissions and hooks in `.claude/settings.json`. |
 | `code-review`, `simplify`, `security-review` | Only relevant to `scripts/`, never to the JSONs. |
+
+Teaching the syllabus. All project skills, all serving `project-instructions.md`:
+
+| Skill | Use it for |
+| --- | --- |
+| **`format`** | The card contract. Load at a boundary — a new topic file, a new section, resuming after a break. Defers to `template.md` for the shape. |
+| **`diagram`** | Whether a subtopic is worth drawing, and the ASCII vocabulary for it. Load before putting any diagram in a card. |
+| **`save`** | Writes `save.json`, the resume point. Fires on every move between subtopics. |
 
 Everything else on the global skill list (`design`, `dataviz`, `artifact-*`,
 `claude-api`, `schedule`, `loop`, …) is out of scope here.

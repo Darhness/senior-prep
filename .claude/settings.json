@@ -23,7 +23,9 @@
       "Bash(node scripts/topic-tree.ts --depth 1 --no-color)",
       "Edit(/.claude/skills/topics/**)",
       "Bash(node scripts/topic-tree.ts --format tree)",
-      "Bash(node scripts/topic-tree.ts --depth 3)"
+      "Bash(node scripts/topic-tree.ts --depth 3)",
+      "Write(save.json)",
+      "Edit(save.json)"
     ],
     "additionalDirectories": [
       "\\tmp"

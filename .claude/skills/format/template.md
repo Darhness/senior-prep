@@ -14,8 +14,8 @@ Claude Chat, on a phone. That is a hard constraint, not a preference:
 - **Tables only when every cell is a few words.** A short lookup table reads
   fine on a phone. A table whose cells are sentences squashes or scrolls — that
   content becomes bold labels on their own lines instead.
-- **A card should be takeable in without scrolling back.** If it needs two
-  screens, the subtopic was too big and should have been split.
+- **A card is about 200 words, and takeable in without scrolling back.** If
+  it needs two screens, the subtopic was too big and should have been split.
 
 Slot labels are bold on their own line rather than headings partly for this
 reason — headings burn vertical space a phone does not have.
@@ -31,9 +31,8 @@ reason — headings burn vertical space a phone does not have.
 | **How it works** | yes | The mechanism. The body of the lesson |
 | **Where it bites** | when there is one | The failure mode — what breaks, in production, for real |
 | **The fix** | when there is one | What to do instead. Omit when the subtopic has no trap |
-| **Say this** | yes | The spoken answer, in quotes. Shorter than the explanation, no hedging |
 
-Four are mandatory: **Title, In one line, How it works, Say this.** The rest
+Three are mandatory: **Title, In one line, How it works.** The rest
 appear only when the subtopic actually has one. A card that pads *Where it
 bites* with something invented is worse than a card without the slot.
 
@@ -57,9 +56,6 @@ its place.
 
 **The fix**
 <what to do instead>
-
-**Say this**
-"<the spoken answer>"
 ```
 
 Slot labels are bold on their own line, content underneath. Not headings —
@@ -81,7 +77,8 @@ decoration.
   kinds". Not for three loosely related points.
 - **Bold for slot labels and for a term at the moment it is introduced.** Not
   for emphasis.
-- **Blockquote for the spoken answer** in *Say this*, and nothing else.
+- **Blockquote only for a spoken answer**, and only when I ask for one with
+  `say`.
 
 The failure mode is everything turning into bullet points. Most of **How it
 works** is prose, because most explanation is prose. Reach for structure only
@@ -109,10 +106,6 @@ holding callbacks.
 **The fix**
 Declare the nested class `static` and pass what it needs explicitly. The
 synthetic field disappears.
-
-**Say this**
-"Inner classes capture the enclosing instance, so retaining one retains the
-outer object. I default to static nested classes and pass in what they need."
 
 ## Variants
 

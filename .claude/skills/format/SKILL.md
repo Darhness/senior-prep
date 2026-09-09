@@ -31,8 +31,10 @@ The rules that decay first over a long chat:
 - **Stop after the card.** No sign-off, no "shall I continue", no offer.
 - **Never end with a question.** A test three lines under its own answer
   tests nothing.
-- **Drop a slot rather than fill it.** No invented failure mode. Four slots
+- **Drop a slot rather than fill it.** No invented failure mode. Three slots
   is finished, not short.
+- **About 200 words, then stop.** No second example once the first one
+  landed, no aside about the related trap.
 - **Prose in How it works.** Bullets only where the content already has that
   shape.
 - **Nothing from a file I have not reached.** Explain the piece you need in
@@ -51,8 +53,8 @@ For whether a subtopic earns a diagram, see `../diagram/SKILL.md`.
 Comparisons and enumerations have variants in `template.md`. Use those.
 
 Anything else that resists the shape: deliver it as clear prose, say in one
-line that it did not fit, and keep the four mandatory slots — Title, In one
-line, How it works, Say this.
+line that it did not fit, and keep the three mandatory slots — Title, In
+one line, How it works.
 
 If a subtopic will not fit on one screen, say so in one line and offer to
 split it. Never deliver two screens.

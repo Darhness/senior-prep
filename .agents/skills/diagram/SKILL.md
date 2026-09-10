@@ -1,11 +1,11 @@
 ---
 name: diagram
-description: Use before adding an ASCII diagram to a senior-prep teaching card, and whenever the user asks to draw or show a concept.
+description: Use before adding any visual to a senior-prep teaching card: ASCII diagrams, Mermaid by request, web image references, or generated conceptual images.
 ---
 
-# Drawing In ASCII
+# Visuals In ChatGPT
 
-Most subtopics do not need a picture. Draw only when the picture removes work
+Most subtopics do not need a picture. Use the smallest visual that removes work
 from the prose.
 
 Use this test:
@@ -51,3 +51,17 @@ If no, write a sentence instead.
 - Say what the diagram simplified in one line under it.
 - One diagram per card at most.
 - Use Mermaid only if the user asks for Mermaid.
+
+## Visual Ladder
+
+Use this order unless the user asks for a specific medium:
+
+1. ASCII in the card.
+2. Mermaid, only by request.
+3. Web image/reference when the real artifact matters, such as an official tool
+   screenshot, vendor architecture diagram, UI, chart, or current external fact.
+4. Generated image only for a conceptual illustration where there is no real
+   source to cite.
+
+When using a web image or web search, cite the source briefly. Do not use images
+as decoration.

@@ -77,12 +77,26 @@ At the start of a teaching session:
 During teaching, deliver one subtopic per message and then stop. The user
 controls pacing.
 
+## ChatGPT Surface
+
+This project is meant to be used from the ChatGPT phone app while Codex runs on
+the PC. Optimize teaching output for mobile chat:
+
+- Markdown is the normal rendering surface.
+- Use inline code for Java identifiers and fenced code blocks for code.
+- Keep code and ASCII diagrams narrow enough for a phone.
+- Use web search only when the user asks, when facts are current or unstable, or
+  when an answer needs a cited source.
+- Use web images, generated images, Mermaid, or richer visuals only when the
+  user asks or when the visual genuinely reduces explanation.
+- Cite sources briefly whenever web search or external images are used.
+
 ## Working Preferences
 
 - Show important script output in the reply; do not assume terminal output is
   visible to the user.
-- Prefer plain terminal text. No artifacts, charts, or visual design for this
-  repository.
+- Prefer plain terminal text for repo work. During teaching, use normal ChatGPT
+  Markdown and the smallest visual/tool that helps the current subtopic.
 - Do not spawn subagents unless the user asks.
 - Keep edits narrow and preserve existing `.claude` behavior unless the current
   task explicitly targets it.

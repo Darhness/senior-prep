@@ -28,17 +28,21 @@ No timestamp, history, skipped list, counts, or percentage.
 
 ## When To Write
 
-Write on every move from one subtopic to the next: `next`, `n`, `skip`, the end
-of a session, or an explicit `save`.
+Write on every move from one subtopic to the next: `next`, `n`, `N`, `skip`, the
+end of a session, or an explicit `save`.
 
 Phone aliases are defined in `project-instructions.md`. For progress handling,
-`n` is identical to `next`. `s` saves the current delivered subtopic and stops
-the session; it does not deliver another card.
+`n` and `N` are identical to `next`. `s` saves the current delivered subtopic
+and stops the session; it does not deliver another card.
 
 In Codex, update `save.json` with the normal file-editing path, preferably
 `apply_patch` for manual edits.
 
-After writing, confirm in one line before the next card:
+Moves caused by `next`, `n`, `N`, or `skip` are silent. Write `save.json`, then
+deliver the next card with no save confirmation or transition text. This also
+applies when crossing into a new section or topic file.
+
+For an explicit `save` or `s`, confirm in one line:
 
 ```text
 saved · 14 · D4 — ClassLoader leaks — the redeploy classic

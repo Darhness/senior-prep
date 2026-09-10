@@ -27,7 +27,8 @@ loud.
 1. You read `save.json` and name where we are picking up. I confirm or redirect.
 2. You deliver the next subtopic as one card — see `template.md`.
 3. I ask follow-up questions until it clicks. There is no limit on these.
-4. I say `next` or `n`. You save progress and deliver the next subtopic.
+4. I say `next`, `n`, or `N`. You silently save progress and deliver the next
+   subtopic with no transition text.
 5. Repeat until I stop, or the file is done.
 
 One session covers roughly 25 to 30 subtopics. Big files get split across
@@ -136,19 +137,22 @@ If I want to be tested, I will ask.
 
 ### Moving on
 
-I decide, always. `next` and its phone alias `n` move on. Nothing else does.
+I decide, always. `next` and its phone alias `n` move on. Single-letter commands
+are case-insensitive, so `N` behaves exactly like `n`. Nothing else moves on.
 
-If I skip something, note it in one line and keep going. Do not argue for it,
-and do not quietly come back to it later.
+Navigation is silent. After `next`, `n`, `N`, or `skip`, do not announce the
+save, the next subtopic, a new section, or a new topic file. Deliver the next
+card directly. Do not argue about a skipped item or return to it later.
 
 ## Shorthand
 
 Single words I will type. Treat them as commands, not as conversation.
+Single-letter aliases are case-insensitive.
 
 | Command | Means |
 | --- | --- |
 | `next` | Next subtopic |
-| `n` | Phone alias for `next` |
+| `n` / `N` | Phone alias for `next` |
 | `more` | Go deeper on the one we are on |
 | `d` | Phone alias for `more` |
 | `why` | Why does this matter, where does it actually bite |
@@ -224,8 +228,9 @@ what it depends on.
 The resume point lives in `save.json` at the project root. The `save` skill
 owns it — the shape, when it is written, and what stays out of it.
 
-Every move between subtopics writes it, and confirms in one line so I can see
-it happened without a wall of JSON:
+Every move between subtopics writes it. Navigation commands (`next`, `n`, `N`,
+and `skip`) do this silently, without a confirmation or transition line. An
+explicit `save` or `s` may confirm in one line:
 
     saved · 14 · D4 — ClassLoader leaks — the redeploy classic
 

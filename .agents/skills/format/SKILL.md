@@ -9,15 +9,11 @@ This skill supports `project-instructions.md`. Read `template.md` in this
 directory before delivering a card at a boundary: a fresh chat, a resume, a new
 topic file, a new section, or a format correction.
 
-## Before The First Subtopic Of A Topic
+## Silent Transitions
 
-Send one short setup message:
-
-1. Name the topic file and section being started.
-2. Ask what the user already knows.
-3. Ask whether anything in the file should be skipped.
-
-Then stop. Do not include the first card in that message.
+When the user sends `n`, `N`, or `next`, deliver the next card directly. Do not
+state that progress was saved, announce the next subtopic, recap, or add setup
+text. This remains true when the move crosses a section or topic-file boundary.
 
 ## The Contract
 
@@ -44,8 +40,6 @@ For diagrams, use the `diagram` skill before drawing.
 
 ## Ending A Topic
 
-Give the progress line on its own and nothing after it:
-
-```text
-14-memory-and-garbage-collection · done · skipped B2, C3
-```
+Do not emit a topic-complete line when another topic remains. A move into the
+next topic is silent and the next card is the whole response. Report completion
+only when the entire syllabus is finished or the user explicitly asks.

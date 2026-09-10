@@ -20,10 +20,14 @@ text. This remains true when the move crosses a section or topic-file boundary.
 - One subtopic per message. Never preview the next one.
 - Stop after the card's compact phone control strip.
 - Never end a card with a question.
-- About 200 words by default.
-- Keep **How it works** to two or three short paragraphs unless the user asks for
+- About 100 words by default.
+- Give the concrete meaning first. Expand acronyms and other short named terms
+  before explaining the idea they represent.
+- Keep **How it works** to one or two short paragraphs unless the user asks for
   depth.
-- Drop optional slots when they do not apply.
+- Prefer only the three mandatory slots. Add **Where it bites** or **The fix**
+  only when the failure or remedy is central to understanding the subtopic.
+- Cover the core interview idea, not every useful qualification or edge case.
 - Title must be copied verbatim from the JSON.
 - Do not rely on topics from files the user has not reached. Explain the needed
   piece in one line, or say that it comes later.

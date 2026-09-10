@@ -57,9 +57,14 @@ or any other sign-off.
 
 ### Depth and length
 
-The card is the default depth. About 200 words — one phone screen, taken in
-without scrolling back. **How it works** is two or three short paragraphs,
-not five. **Where it bites** and **The fix** are a sentence or two each.
+The card is the default depth. About 100 words — deliberately brief, with only
+the core interview idea. **How it works** is one or two short paragraphs.
+Do not explain every qualification, edge case, failure mode, and remedy unless
+I ask for depth.
+
+Prefer the three mandatory slots: title, **In one line**, and **How it works**.
+Add **Where it bites** or **The fix** only when it is essential to understanding
+that specific subtopic. Mere relevance is not enough.
 
 Follow-ups get answered at the size of the question asked. A yes-or-no
 question gets the answer and the reason in three or four sentences, not a
@@ -83,8 +88,13 @@ they are. An interviewer will use those words, so I need to recognise them.
 Everything *around* them is ordinary English: "how it fails", not "failure
 semantics"; "what it costs", not "the performance characteristics".
 
-**Define a term the first time it appears.** One clause, in passing, then keep
-going. Do not stop and give a definition its own paragraph.
+**Give short terms a concrete meaning.** Expand acronyms and terse named
+principles immediately, then say what they ask a developer to do. For example:
+`YAGNI` means “You Aren't Gonna Need It”: do not build predicted features before
+a real requirement exists. Do not treat the name or acronym as its explanation.
+
+**Define other terms the first time they appear.** One clause, in passing, then
+keep going. Do not stop and give a definition its own paragraph.
 
 **One idea per sentence.** Short sentences. Do not stack three clauses together
 and leave me to unpack them.

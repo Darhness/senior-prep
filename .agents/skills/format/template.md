@@ -6,7 +6,7 @@ Every taught subtopic is a compact card. The target is a phone screen.
 
 - Code and ASCII diagrams stay under about 40 characters wide.
 - Tables are only for tiny cells.
-- A card is about 200 words.
+- A card is about 100 words.
 - If one subtopic needs two screens, say it should be split instead of delivering
   two screens.
 - Web citations, when used, are short and sit inside the relevant slot.
@@ -35,8 +35,13 @@ Use these slots in order:
 
 Mandatory: title, **In one line**, **How it works**.
 
-Optional: **Where it bites**, **The fix**. Omit them rather than inventing a
-generic trap.
+For an acronym or short named term, **In one line** starts with its literal
+expansion and then states what it concretely asks a developer to do. For
+example: `DRY — Don't Repeat Yourself: keep one business rule in one
+authoritative place.` Do not assume that naming a principle explains it.
+
+Optional: **Where it bites**, **The fix**. Default to omitting them. Include one
+only when that information is essential to the subtopic, not merely relevant.
 
 ## Formatting
 
